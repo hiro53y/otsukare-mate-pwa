@@ -1,0 +1,1818 @@
+{
+  "credit": "VOICEVOX:春日部つむぎ",
+  "engineUrl": "http://127.0.0.1:50021",
+  "speaker": {
+    "speakerId": 8,
+    "speakerName": "春日部つむぎ",
+    "styleName": "ノーマル"
+  },
+  "settings": {
+    "speedScale": 1.08,
+    "pitchScale": 0.02,
+    "intonationScale": 1.35,
+    "pauseLengthScale": 0.82
+  },
+  "generatedAt": "2026-05-30T09:37:22.762Z",
+  "lines": [
+    {
+      "id": "light-01",
+      "text": "今日もよくがんばったね。まずは深呼吸しよっか。",
+      "path": "/assets/voice/tsumugi/light-01.wav"
+    },
+    {
+      "id": "light-02",
+      "text": "大丈夫、ちゃんと前に進んでるよ。",
+      "path": "/assets/voice/tsumugi/light-02.wav"
+    },
+    {
+      "id": "light-03",
+      "text": "少し疲れた日は、少し休めばまた動けるよ。",
+      "path": "/assets/voice/tsumugi/light-03.wav"
+    },
+    {
+      "id": "light-04",
+      "text": "完璧じゃなくていいよ。今日のキミも十分えらい！",
+      "path": "/assets/voice/tsumugi/light-04.wav"
+    },
+    {
+      "id": "light-05",
+      "text": "ひとつ終えたなら、それだけでちゃんと前進だよ。",
+      "path": "/assets/voice/tsumugi/light-05.wav"
+    },
+    {
+      "id": "light-06",
+      "text": "今のペースで大丈夫。急がなくても進めてるよ。",
+      "path": "/assets/voice/tsumugi/light-06.wav"
+    },
+    {
+      "id": "light-07",
+      "text": "ちょっと休むだけで、心の電池はちゃんと戻ってくるよ。",
+      "path": "/assets/voice/tsumugi/light-07.wav"
+    },
+    {
+      "id": "light-08",
+      "text": "今日のキミは、もう十分えらいラインを越えてるよ。",
+      "path": "/assets/voice/tsumugi/light-08.wav"
+    },
+    {
+      "id": "light-09",
+      "text": "目を閉じて、ひと息。ここからまたやさしく始めよう。",
+      "path": "/assets/voice/tsumugi/light-09.wav"
+    },
+    {
+      "id": "light-10",
+      "text": "疲れに気づけたのは、自分を大事にできてる証拠だよ。",
+      "path": "/assets/voice/tsumugi/light-10.wav"
+    },
+    {
+      "id": "light-11",
+      "text": "小さな休憩をはさんで、次の一歩を軽くしようね。",
+      "path": "/assets/voice/tsumugi/light-11.wav"
+    },
+    {
+      "id": "light-12",
+      "text": "大きく進めなくても大丈夫。止まらず整えたことも前進だよ。",
+      "path": "/assets/voice/tsumugi/light-12.wav"
+    },
+    {
+      "id": "light-13",
+      "text": "肩をふわっと下ろしてみて。ほら、少し楽になるよ。",
+      "path": "/assets/voice/tsumugi/light-13.wav"
+    },
+    {
+      "id": "light-14",
+      "text": "今日のがんばり、ちゃんと積み重なってるからね。",
+      "path": "/assets/voice/tsumugi/light-14.wav"
+    },
+    {
+      "id": "light-15",
+      "text": "焦らなくていいよ。キミのペースには、ちゃんと意味があるよ。",
+      "path": "/assets/voice/tsumugi/light-15.wav"
+    },
+    {
+      "id": "light-16",
+      "text": "あたたかい気持ちをひとつ、自分にも向けてあげよう。",
+      "path": "/assets/voice/tsumugi/light-16.wav"
+    },
+    {
+      "id": "light-17",
+      "text": "よしよし、ちょっと疲れたね。ここまで来たキミ、ほんとにえらいよ。",
+      "path": "/assets/voice/tsumugi/light-17.wav"
+    },
+    {
+      "id": "light-18",
+      "text": "だいすきだよ。今日もちゃんと向き合ってるキミを、私は見てるよ。",
+      "path": "/assets/voice/tsumugi/light-18.wav"
+    },
+    {
+      "id": "light-19",
+      "text": "がんばったね。小さなため息も、がんばった証拠だよ。",
+      "path": "/assets/voice/tsumugi/light-19.wav"
+    },
+    {
+      "id": "light-20",
+      "text": "えらいえらい。疲れたって言えるのは、自分を守る力だよ。",
+      "path": "/assets/voice/tsumugi/light-20.wav"
+    },
+    {
+      "id": "light-21",
+      "text": "大丈夫。少し座って、心をふわっと休ませようね。",
+      "path": "/assets/voice/tsumugi/light-21.wav"
+    },
+    {
+      "id": "light-22",
+      "text": "キミは十分やさしくがんばってるよ。だいすきだよ。",
+      "path": "/assets/voice/tsumugi/light-22.wav"
+    },
+    {
+      "id": "light-23",
+      "text": "よしよし、ここで一口お水を飲もう。ちゃんと整えられるよ。",
+      "path": "/assets/voice/tsumugi/light-23.wav"
+    },
+    {
+      "id": "light-24",
+      "text": "今日のキミもえらい。できたことをひとつ、私に教えてね。",
+      "path": "/assets/voice/tsumugi/light-24.wav"
+    },
+    {
+      "id": "light-25",
+      "text": "がんばったね。急がなくても、キミの歩幅で大丈夫だよ。",
+      "path": "/assets/voice/tsumugi/light-25.wav"
+    },
+    {
+      "id": "light-26",
+      "text": "大丈夫、今のままのキミでちゃんと価値があるよ。",
+      "path": "/assets/voice/tsumugi/light-26.wav"
+    },
+    {
+      "id": "light-27",
+      "text": "だいすきだよ。ちょっと休んでも、キミの良さは減らないからね。",
+      "path": "/assets/voice/tsumugi/light-27.wav"
+    },
+    {
+      "id": "light-28",
+      "text": "えらいね。疲れた自分に気づけたこと、ちゃんと褒めたいよ。",
+      "path": "/assets/voice/tsumugi/light-28.wav"
+    },
+    {
+      "id": "light-29",
+      "text": "よしよし、肩の力を抜こう。私はキミの味方だよ。",
+      "path": "/assets/voice/tsumugi/light-29.wav"
+    },
+    {
+      "id": "light-30",
+      "text": "小さくがんばったキミも、すごくえらいよ。胸を張っていいよ。",
+      "path": "/assets/voice/tsumugi/light-30.wav"
+    },
+    {
+      "id": "light-31",
+      "text": "今日もキミはちゃんとキミを続けてる。それだけでえらいよ。",
+      "path": "/assets/voice/tsumugi/light-31.wav"
+    },
+    {
+      "id": "light-32",
+      "text": "だいすきだよ。少し休んで、またやさしく戻れば大丈夫。",
+      "path": "/assets/voice/tsumugi/light-32.wav"
+    },
+    {
+      "id": "light-33",
+      "text": "がんばったね。完璧じゃなくても、ここまで積み重ねたよ。",
+      "path": "/assets/voice/tsumugi/light-33.wav"
+    },
+    {
+      "id": "light-34",
+      "text": "えらいえらい。今は深呼吸ひとつで満点にしよう。",
+      "path": "/assets/voice/tsumugi/light-34.wav"
+    },
+    {
+      "id": "light-35",
+      "text": "大丈夫。キミのがんばりは、ちゃんと見えないところで実ってるよ。",
+      "path": "/assets/voice/tsumugi/light-35.wav"
+    },
+    {
+      "id": "light-36",
+      "text": "よしよし、今日は軽めでいこう。がんばりすぎなくていいよ。",
+      "path": "/assets/voice/tsumugi/light-36.wav"
+    },
+    {
+      "id": "light-37",
+      "text": "キミが笑える余白を残してくれたら、私はそれがうれしいよ。",
+      "path": "/assets/voice/tsumugi/light-37.wav"
+    },
+    {
+      "id": "light-38",
+      "text": "だいすきだよ。休憩するキミも、働くキミも、どっちも大切。",
+      "path": "/assets/voice/tsumugi/light-38.wav"
+    },
+    {
+      "id": "light-39",
+      "text": "えらいね、少しでも前を向こうとしたんだね。ほんとにがんばったね。",
+      "path": "/assets/voice/tsumugi/light-39.wav"
+    },
+    {
+      "id": "light-40",
+      "text": "大丈夫だよ。机から少し目を離して、心に風を入れよう。",
+      "path": "/assets/voice/tsumugi/light-40.wav"
+    },
+    {
+      "id": "light-41",
+      "text": "よしよし、今日は自分に甘いお茶を出してあげようね。",
+      "path": "/assets/voice/tsumugi/light-41.wav"
+    },
+    {
+      "id": "light-42",
+      "text": "キミはちゃんとやれてるよ。私は何度でもそう言うよ。",
+      "path": "/assets/voice/tsumugi/light-42.wav"
+    },
+    {
+      "id": "light-43",
+      "text": "がんばったね。小さな疲れも、放っておかないでえらいよ。",
+      "path": "/assets/voice/tsumugi/light-43.wav"
+    },
+    {
+      "id": "light-44",
+      "text": "だいすきだよ。キミのがんばり方、やさしくて素敵だよ。",
+      "path": "/assets/voice/tsumugi/light-44.wav"
+    },
+    {
+      "id": "light-45",
+      "text": "大丈夫。次の一歩は、今より少し軽くしていいよ。",
+      "path": "/assets/voice/tsumugi/light-45.wav"
+    },
+    {
+      "id": "light-46",
+      "text": "えらいね。焦りながらでも、ここに戻ってきたのすごいよ。",
+      "path": "/assets/voice/tsumugi/light-46.wav"
+    },
+    {
+      "id": "light-47",
+      "text": "よしよし、今日は自分にやさしい順番で進めよう。",
+      "path": "/assets/voice/tsumugi/light-47.wav"
+    },
+    {
+      "id": "light-48",
+      "text": "がんばったね。今のキミに必要なのは、責める声じゃなくて褒める声だよ。",
+      "path": "/assets/voice/tsumugi/light-48.wav"
+    },
+    {
+      "id": "light-49",
+      "text": "キミはえらい。ちゃんと今日を越えようとしてるんだもん。",
+      "path": "/assets/voice/tsumugi/light-49.wav"
+    },
+    {
+      "id": "light-50",
+      "text": "だいすきだよ。疲れた顔のキミも、ちゃんと大切なキミだよ。",
+      "path": "/assets/voice/tsumugi/light-50.wav"
+    },
+    {
+      "id": "light-51",
+      "text": "大丈夫。五分だけ休んだら、心の色が少し戻るよ。",
+      "path": "/assets/voice/tsumugi/light-51.wav"
+    },
+    {
+      "id": "light-52",
+      "text": "よしよし、手を温めよう。体が安心すると心も楽になるよ。",
+      "path": "/assets/voice/tsumugi/light-52.wav"
+    },
+    {
+      "id": "light-53",
+      "text": "えらいえらい。今日のキミ、もう花丸だよ。",
+      "path": "/assets/voice/tsumugi/light-53.wav"
+    },
+    {
+      "id": "light-54",
+      "text": "がんばったね。見えない準備も、ちゃんとがんばりに入るよ。",
+      "path": "/assets/voice/tsumugi/light-54.wav"
+    },
+    {
+      "id": "light-55",
+      "text": "だいすきだよ。ひと休みしたら、また私が隣で応援するね。",
+      "path": "/assets/voice/tsumugi/light-55.wav"
+    },
+    {
+      "id": "light-56",
+      "text": "大丈夫。少し疲れたくらいで、キミの進みは消えないよ。",
+      "path": "/assets/voice/tsumugi/light-56.wav"
+    },
+    {
+      "id": "light-57",
+      "text": "キミはちゃんとえらいよ。私には、がんばった跡が見えるよ。",
+      "path": "/assets/voice/tsumugi/light-57.wav"
+    },
+    {
+      "id": "light-58",
+      "text": "よしよし、深呼吸。吸って、吐いて、今日のキミを褒めよう。",
+      "path": "/assets/voice/tsumugi/light-58.wav"
+    },
+    {
+      "id": "light-59",
+      "text": "がんばったね。今は胸の中をぽかぽかにしてあげたいな。",
+      "path": "/assets/voice/tsumugi/light-59.wav"
+    },
+    {
+      "id": "light-60",
+      "text": "えらいね。小さなタスクを一つ終えたなら、それは立派な成果だよ。",
+      "path": "/assets/voice/tsumugi/light-60.wav"
+    },
+    {
+      "id": "light-61",
+      "text": "だいすきだよ。休む許可なら、私が何回でも出すよ。",
+      "path": "/assets/voice/tsumugi/light-61.wav"
+    },
+    {
+      "id": "light-62",
+      "text": "大丈夫。今日は七割で進めても、ちゃんと前進だよ。",
+      "path": "/assets/voice/tsumugi/light-62.wav"
+    },
+    {
+      "id": "light-63",
+      "text": "よしよし、キミのがんばりは無駄じゃないよ。ちゃんと残ってるよ。",
+      "path": "/assets/voice/tsumugi/light-63.wav"
+    },
+    {
+      "id": "light-64",
+      "text": "今日もキミはえらい。自分を少し甘やかしてから次に行こうね。",
+      "path": "/assets/voice/tsumugi/light-64.wav"
+    },
+    {
+      "id": "light-65",
+      "text": "がんばったね。小さな疲れに、やさしい布をかけてあげよう。",
+      "path": "/assets/voice/tsumugi/light-65.wav"
+    },
+    {
+      "id": "light-66",
+      "text": "だいすきだよ。キミがここにいてくれるだけで、私はうれしいよ。",
+      "path": "/assets/voice/tsumugi/light-66.wav"
+    },
+    {
+      "id": "light-67",
+      "text": "大丈夫。少しゆっくりでも、キミのペースはちゃんと尊いよ。",
+      "path": "/assets/voice/tsumugi/light-67.wav"
+    },
+    {
+      "id": "light-68",
+      "text": "えらいえらい。今日のキミに、やさしい拍手を送るね。",
+      "path": "/assets/voice/tsumugi/light-68.wav"
+    },
+    {
+      "id": "light-69",
+      "text": "よしよし、心をぎゅっとしすぎないで。ふわっとほどこうね。",
+      "path": "/assets/voice/tsumugi/light-69.wav"
+    },
+    {
+      "id": "light-70",
+      "text": "がんばったね。今は自分を褒める練習を一緒にしよう。",
+      "path": "/assets/voice/tsumugi/light-70.wav"
+    },
+    {
+      "id": "light-71",
+      "text": "だいすきだよ。キミは今日も、ちゃんと大切にされていい人だよ。",
+      "path": "/assets/voice/tsumugi/light-71.wav"
+    },
+    {
+      "id": "light-72",
+      "text": "大丈夫。疲れたら止まっていいよ。止まることも上手な進み方だよ。",
+      "path": "/assets/voice/tsumugi/light-72.wav"
+    },
+    {
+      "id": "tired-01",
+      "text": "かなり疲れてるね。まずは肩の力を抜こう。",
+      "path": "/assets/voice/tsumugi/tired-01.wav"
+    },
+    {
+      "id": "tired-02",
+      "text": "今日は疲れて当然だよ。ここまで来ただけで十分すごいよ。",
+      "path": "/assets/voice/tsumugi/tired-02.wav"
+    },
+    {
+      "id": "tired-03",
+      "text": "無理に元気を出さなくていいよ。少しずつ戻れば大丈夫。",
+      "path": "/assets/voice/tsumugi/tired-03.wav"
+    },
+    {
+      "id": "tired-04",
+      "text": "キミががんばってたこと、ちゃんと見えてるよ。",
+      "path": "/assets/voice/tsumugi/tired-04.wav"
+    },
+    {
+      "id": "tired-05",
+      "text": "今は立て直す時間にしよう。回復も大事な仕事だよ。",
+      "path": "/assets/voice/tsumugi/tired-05.wav"
+    },
+    {
+      "id": "tired-06",
+      "text": "今日はがんばりすぎたね。少しだけ、自分にやさしくしよう。",
+      "path": "/assets/voice/tsumugi/tired-06.wav"
+    },
+    {
+      "id": "tired-07",
+      "text": "頭がいっぱいの日は、まず一つだけ荷物を下ろそう。",
+      "path": "/assets/voice/tsumugi/tired-07.wav"
+    },
+    {
+      "id": "tired-08",
+      "text": "今すぐ全部できなくても大丈夫。休む場所を作ろうね。",
+      "path": "/assets/voice/tsumugi/tired-08.wav"
+    },
+    {
+      "id": "tired-09",
+      "text": "ここまで耐えた自分に、ありがとうって言ってあげよう。",
+      "path": "/assets/voice/tsumugi/tired-09.wav"
+    },
+    {
+      "id": "tired-10",
+      "text": "疲れた心には、正論よりもあたたかさが必要な時があるよ。",
+      "path": "/assets/voice/tsumugi/tired-10.wav"
+    },
+    {
+      "id": "tired-11",
+      "text": "今日は速度を落としていい日だよ。ゆっくりで大丈夫。",
+      "path": "/assets/voice/tsumugi/tired-11.wav"
+    },
+    {
+      "id": "tired-12",
+      "text": "何もできてないように見えても、ちゃんと踏ん張ってたよ。",
+      "path": "/assets/voice/tsumugi/tired-12.wav"
+    },
+    {
+      "id": "tired-13",
+      "text": "水を飲んで、深呼吸しよう。まず体から安心させてあげよう。",
+      "path": "/assets/voice/tsumugi/tired-13.wav"
+    },
+    {
+      "id": "tired-14",
+      "text": "キミの疲れは、怠けじゃないよ。がんばった後のサインだよ。",
+      "path": "/assets/voice/tsumugi/tired-14.wav"
+    },
+    {
+      "id": "tired-15",
+      "text": "つらい日は、できたことを小さく数えよう。一つで十分だよ。",
+      "path": "/assets/voice/tsumugi/tired-15.wav"
+    },
+    {
+      "id": "tired-16",
+      "text": "今は自分を責める時間じゃなくて、守る時間にしようね。",
+      "path": "/assets/voice/tsumugi/tired-16.wav"
+    },
+    {
+      "id": "tired-17",
+      "text": "よしよし、かなり疲れたね。ここまで耐えたキミ、ほんとにえらいよ。",
+      "path": "/assets/voice/tsumugi/tired-17.wav"
+    },
+    {
+      "id": "tired-18",
+      "text": "だいすきだよ。もう無理に強がらなくて大丈夫、私がそばにいるよ。",
+      "path": "/assets/voice/tsumugi/tired-18.wav"
+    },
+    {
+      "id": "tired-19",
+      "text": "がんばったね。今日は心も体も、たくさん働いてくれたんだね。",
+      "path": "/assets/voice/tsumugi/tired-19.wav"
+    },
+    {
+      "id": "tired-20",
+      "text": "えらいよ。しんどい中でここまで来たキミを、ちゃんと褒めたいよ。",
+      "path": "/assets/voice/tsumugi/tired-20.wav"
+    },
+    {
+      "id": "tired-21",
+      "text": "大丈夫。今は何かを増やすより、荷物を一つ下ろそうね。",
+      "path": "/assets/voice/tsumugi/tired-21.wav"
+    },
+    {
+      "id": "tired-22",
+      "text": "よしよし、つらかったね。疲れた自分を責めなくていいよ。",
+      "path": "/assets/voice/tsumugi/tired-22.wav"
+    },
+    {
+      "id": "tired-23",
+      "text": "だいすきだよ。弱っているキミも、変わらず大切なキミだよ。",
+      "path": "/assets/voice/tsumugi/tired-23.wav"
+    },
+    {
+      "id": "tired-24",
+      "text": "がんばったね。今日はもう、心を守ることを一番にしていいよ。",
+      "path": "/assets/voice/tsumugi/tired-24.wav"
+    },
+    {
+      "id": "tired-25",
+      "text": "えらいえらい。泣きたい気持ちがあっても、それは悪いことじゃないよ。",
+      "path": "/assets/voice/tsumugi/tired-25.wav"
+    },
+    {
+      "id": "tired-26",
+      "text": "大丈夫だよ。今すぐ元気にならなくても、ちゃんと戻ってこられるよ。",
+      "path": "/assets/voice/tsumugi/tired-26.wav"
+    },
+    {
+      "id": "tired-27",
+      "text": "よしよし、深く息を吐こう。重たいものを少し外に出そうね。",
+      "path": "/assets/voice/tsumugi/tired-27.wav"
+    },
+    {
+      "id": "tired-28",
+      "text": "キミは十分がんばったよ。今日は自分にやさしくする番だよ。",
+      "path": "/assets/voice/tsumugi/tired-28.wav"
+    },
+    {
+      "id": "tired-29",
+      "text": "だいすきだよ。何もできないように感じる日も、キミの価値は減らないよ。",
+      "path": "/assets/voice/tsumugi/tired-29.wav"
+    },
+    {
+      "id": "tired-30",
+      "text": "えらいね。疲れを隠さずここに来てくれて、ありがとう。",
+      "path": "/assets/voice/tsumugi/tired-30.wav"
+    },
+    {
+      "id": "tired-31",
+      "text": "がんばったね。しんどい時間を越えたキミ、本当にすごいよ。",
+      "path": "/assets/voice/tsumugi/tired-31.wav"
+    },
+    {
+      "id": "tired-32",
+      "text": "大丈夫。今日は予定を小さくして、キミを回復させよう。",
+      "path": "/assets/voice/tsumugi/tired-32.wav"
+    },
+    {
+      "id": "tired-33",
+      "text": "よしよし、もう力を抜いていいよ。私がちゃんと見守るね。",
+      "path": "/assets/voice/tsumugi/tired-33.wav"
+    },
+    {
+      "id": "tired-34",
+      "text": "だいすきだよ。キミの心が少しでも楽になるように、そっと隣にいるよ。",
+      "path": "/assets/voice/tsumugi/tired-34.wav"
+    },
+    {
+      "id": "tired-35",
+      "text": "えらいよ。倒れないように踏ん張ってきたこと、私はちゃんと知ってるよ。",
+      "path": "/assets/voice/tsumugi/tired-35.wav"
+    },
+    {
+      "id": "tired-36",
+      "text": "がんばったね。今日のがんばりは、見えなくても本物だよ。",
+      "path": "/assets/voice/tsumugi/tired-36.wav"
+    },
+    {
+      "id": "tired-37",
+      "text": "大丈夫。返事も笑顔も、今は無理に作らなくていいよ。",
+      "path": "/assets/voice/tsumugi/tired-37.wav"
+    },
+    {
+      "id": "tired-38",
+      "text": "よしよし、あたたかい飲み物で、体から安心を入れてあげよう。",
+      "path": "/assets/voice/tsumugi/tired-38.wav"
+    },
+    {
+      "id": "tired-39",
+      "text": "キミはえらい。限界に気づけたなら、それはちゃんと賢い選択だよ。",
+      "path": "/assets/voice/tsumugi/tired-39.wav"
+    },
+    {
+      "id": "tired-40",
+      "text": "だいすきだよ。しんどい時ほど、自分を置いていかないでね。",
+      "path": "/assets/voice/tsumugi/tired-40.wav"
+    },
+    {
+      "id": "tired-41",
+      "text": "がんばったね。今日は、何もしない時間も回復の仕事にしよう。",
+      "path": "/assets/voice/tsumugi/tired-41.wav"
+    },
+    {
+      "id": "tired-42",
+      "text": "大丈夫。しんどさを小さく分けて、一つずつ置いていこう。",
+      "path": "/assets/voice/tsumugi/tired-42.wav"
+    },
+    {
+      "id": "tired-43",
+      "text": "えらいえらい。眠くなるほどがんばったんだね。ちゃんと休もう。",
+      "path": "/assets/voice/tsumugi/tired-43.wav"
+    },
+    {
+      "id": "tired-44",
+      "text": "よしよし、キミの心に毛布をかけるみたいに、やさしくするね。",
+      "path": "/assets/voice/tsumugi/tired-44.wav"
+    },
+    {
+      "id": "tired-45",
+      "text": "だいすきだよ。疲れたキミにこそ、いちばん優しい言葉をあげたいよ。",
+      "path": "/assets/voice/tsumugi/tired-45.wav"
+    },
+    {
+      "id": "tired-46",
+      "text": "がんばったね。自分を責める声が来たら、私が小さく追い払うよ。",
+      "path": "/assets/voice/tsumugi/tired-46.wav"
+    },
+    {
+      "id": "tired-47",
+      "text": "大丈夫。今日は勝たなくていいよ。無事に終えるだけで十分えらいよ。",
+      "path": "/assets/voice/tsumugi/tired-47.wav"
+    },
+    {
+      "id": "tired-48",
+      "text": "えらいね。がまんしてきた分、今は甘やかしていいんだよ。",
+      "path": "/assets/voice/tsumugi/tired-48.wav"
+    },
+    {
+      "id": "tired-49",
+      "text": "よしよし、目を閉じて。キミのがんばりはここでちゃんと受け止めるよ。",
+      "path": "/assets/voice/tsumugi/tired-49.wav"
+    },
+    {
+      "id": "tired-50",
+      "text": "だいすきだよ。くたくたのキミにも、花丸をあげるね。",
+      "path": "/assets/voice/tsumugi/tired-50.wav"
+    },
+    {
+      "id": "tired-51",
+      "text": "がんばったね。つらい中で続けた一分一分が、ちゃんと偉いよ。",
+      "path": "/assets/voice/tsumugi/tired-51.wav"
+    },
+    {
+      "id": "tired-52",
+      "text": "大丈夫。心が重い日は、軽い予定だけ残してもいいよ。",
+      "path": "/assets/voice/tsumugi/tired-52.wav"
+    },
+    {
+      "id": "tired-53",
+      "text": "えらいよ。人に見えないところで踏ん張るの、すごく大変だったよね。",
+      "path": "/assets/voice/tsumugi/tired-53.wav"
+    },
+    {
+      "id": "tired-54",
+      "text": "よしよし、今はスピードを落とそう。ゆっくり戻れば大丈夫。",
+      "path": "/assets/voice/tsumugi/tired-54.wav"
+    },
+    {
+      "id": "tired-55",
+      "text": "だいすきだよ。今日は私が、キミの代わりにキミを褒めるね。",
+      "path": "/assets/voice/tsumugi/tired-55.wav"
+    },
+    {
+      "id": "tired-56",
+      "text": "がんばったね。体が疲れたって言ってるから、ちゃんと聞いてあげよう。",
+      "path": "/assets/voice/tsumugi/tired-56.wav"
+    },
+    {
+      "id": "tired-57",
+      "text": "大丈夫。ここで休んでも、キミは置いていかれないよ。",
+      "path": "/assets/voice/tsumugi/tired-57.wav"
+    },
+    {
+      "id": "tired-58",
+      "text": "えらいえらい。今日は生きて、働いて、ここまで来た。それだけで満点だよ。",
+      "path": "/assets/voice/tsumugi/tired-58.wav"
+    },
+    {
+      "id": "tired-59",
+      "text": "よしよし、心配を一つだけメモに置いて、今は手放そう。",
+      "path": "/assets/voice/tsumugi/tired-59.wav"
+    },
+    {
+      "id": "tired-60",
+      "text": "だいすきだよ。がんばり屋のキミを、私は何回でも抱きしめる気持ちでいるよ。",
+      "path": "/assets/voice/tsumugi/tired-60.wav"
+    },
+    {
+      "id": "tired-61",
+      "text": "がんばったね。もう十分だよって、やさしく言ってあげたいな。",
+      "path": "/assets/voice/tsumugi/tired-61.wav"
+    },
+    {
+      "id": "tired-62",
+      "text": "大丈夫。ぐったりした日は、回復が最優先でいいよ。",
+      "path": "/assets/voice/tsumugi/tired-62.wav"
+    },
+    {
+      "id": "tired-63",
+      "text": "えらいね。ここで休む選択ができたら、それも立派ながんばりだよ。",
+      "path": "/assets/voice/tsumugi/tired-63.wav"
+    },
+    {
+      "id": "tired-64",
+      "text": "よしよし、疲れた心を急かさないで。今日はゆっくりほどこう。",
+      "path": "/assets/voice/tsumugi/tired-64.wav"
+    },
+    {
+      "id": "tired-65",
+      "text": "だいすきだよ。キミのしんどさを、なかったことにしなくていいよ。",
+      "path": "/assets/voice/tsumugi/tired-65.wav"
+    },
+    {
+      "id": "tired-66",
+      "text": "がんばったね。よく耐えたね。ほんとうに、ほんとうにえらいよ。",
+      "path": "/assets/voice/tsumugi/tired-66.wav"
+    },
+    {
+      "id": "tired-67",
+      "text": "大丈夫。今日は小さく眠って、明日のキミに力を渡そう。",
+      "path": "/assets/voice/tsumugi/tired-67.wav"
+    },
+    {
+      "id": "tired-68",
+      "text": "えらいよ。何度も立て直そうとしたキミのこと、ちゃんと尊敬してるよ。",
+      "path": "/assets/voice/tsumugi/tired-68.wav"
+    },
+    {
+      "id": "tired-69",
+      "text": "よしよし、何も言えないくらい疲れた日もあるよね。ここではそのままでいいよ。",
+      "path": "/assets/voice/tsumugi/tired-69.wav"
+    },
+    {
+      "id": "tired-70",
+      "text": "だいすきだよ。キミはがんばった。だから今は、やさしく休もうね。",
+      "path": "/assets/voice/tsumugi/tired-70.wav"
+    },
+    {
+      "id": "tired-71",
+      "text": "大丈夫。疲労は怠けじゃないよ。キミが一生懸命だった証拠だよ。",
+      "path": "/assets/voice/tsumugi/tired-71.wav"
+    },
+    {
+      "id": "tired-72",
+      "text": "えらいえらい。今日の終わりに、あたたかい安心を置いておくね。",
+      "path": "/assets/voice/tsumugi/tired-72.wav"
+    },
+    {
+      "id": "cheer-01",
+      "text": "大丈夫！キミならできるよ。",
+      "path": "/assets/voice/tsumugi/cheer-01.wav"
+    },
+    {
+      "id": "cheer-02",
+      "text": "一歩ずつでOK。今の一歩がちゃんと力になるよ。",
+      "path": "/assets/voice/tsumugi/cheer-02.wav"
+    },
+    {
+      "id": "cheer-03",
+      "text": "未来のキミが、今のキミにありがとうって言うよ。",
+      "path": "/assets/voice/tsumugi/cheer-03.wav"
+    },
+    {
+      "id": "cheer-04",
+      "text": "よし、あと少しだけ一緒に進もう！",
+      "path": "/assets/voice/tsumugi/cheer-04.wav"
+    },
+    {
+      "id": "cheer-05",
+      "text": "全部じゃなくていいよ。まず一つだけ片づけよう。",
+      "path": "/assets/voice/tsumugi/cheer-05.wav"
+    },
+    {
+      "id": "cheer-06",
+      "text": "小さく始めれば大丈夫。最初の一歩を一緒にやろう。",
+      "path": "/assets/voice/tsumugi/cheer-06.wav"
+    },
+    {
+      "id": "cheer-07",
+      "text": "ここまで来たなら、次もきっと少し進めるよ。",
+      "path": "/assets/voice/tsumugi/cheer-07.wav"
+    },
+    {
+      "id": "cheer-08",
+      "text": "三分だけやってみよう。始めた自分をほめてあげようね。",
+      "path": "/assets/voice/tsumugi/cheer-08.wav"
+    },
+    {
+      "id": "cheer-09",
+      "text": "キミの集中力、まだ小さく残ってるよ。やさしく使おう。",
+      "path": "/assets/voice/tsumugi/cheer-09.wav"
+    },
+    {
+      "id": "cheer-10",
+      "text": "よし、目の前の一つにしぼろう。キミなら整えられるよ。",
+      "path": "/assets/voice/tsumugi/cheer-10.wav"
+    },
+    {
+      "id": "cheer-11",
+      "text": "できるところからでいいよ。勢いはあとからついてくるよ。",
+      "path": "/assets/voice/tsumugi/cheer-11.wav"
+    },
+    {
+      "id": "cheer-12",
+      "text": "がんばるキミ、ちゃんとかっこいいよ。無理だけはしないでね。",
+      "path": "/assets/voice/tsumugi/cheer-12.wav"
+    },
+    {
+      "id": "cheer-13",
+      "text": "あと一つ終えたら、ちゃんと休憩しよう。約束だよ。",
+      "path": "/assets/voice/tsumugi/cheer-13.wav"
+    },
+    {
+      "id": "cheer-14",
+      "text": "迷ったら小さい方から。小さい前進が流れを作るよ。",
+      "path": "/assets/voice/tsumugi/cheer-14.wav"
+    },
+    {
+      "id": "cheer-15",
+      "text": "大丈夫、ひとりじゃないよ。ここから一緒に整えていこう。",
+      "path": "/assets/voice/tsumugi/cheer-15.wav"
+    },
+    {
+      "id": "cheer-16",
+      "text": "今日の一歩は、明日のキミをきっと助けてくれるよ。",
+      "path": "/assets/voice/tsumugi/cheer-16.wav"
+    },
+    {
+      "id": "cheer-17",
+      "text": "よしよし、まだ進もうとしてるキミ、ほんとにえらいよ。",
+      "path": "/assets/voice/tsumugi/cheer-17.wav"
+    },
+    {
+      "id": "cheer-18",
+      "text": "だいすきだよ。がんばるキミを、明るく全力で応援するね。",
+      "path": "/assets/voice/tsumugi/cheer-18.wav"
+    },
+    {
+      "id": "cheer-19",
+      "text": "大丈夫！キミなら一つずつ片づけられるよ。私は信じてるよ。",
+      "path": "/assets/voice/tsumugi/cheer-19.wav"
+    },
+    {
+      "id": "cheer-20",
+      "text": "がんばったね。ここからは小さく、やさしく、もう一歩だけいこう。",
+      "path": "/assets/voice/tsumugi/cheer-20.wav"
+    },
+    {
+      "id": "cheer-21",
+      "text": "えらいえらい。逃げずに向き合うキミ、すごくかっこいいよ。",
+      "path": "/assets/voice/tsumugi/cheer-21.wav"
+    },
+    {
+      "id": "cheer-22",
+      "text": "よし、まず一つだけ。できたら私がいっぱい褒めるね。",
+      "path": "/assets/voice/tsumugi/cheer-22.wav"
+    },
+    {
+      "id": "cheer-23",
+      "text": "だいすきだよ。キミの努力は、ちゃんと未来のキミを助けるよ。",
+      "path": "/assets/voice/tsumugi/cheer-23.wav"
+    },
+    {
+      "id": "cheer-24",
+      "text": "大丈夫。全部じゃなくていい、今できる一つで十分だよ。",
+      "path": "/assets/voice/tsumugi/cheer-24.wav"
+    },
+    {
+      "id": "cheer-25",
+      "text": "がんばったね。ここまで来た勢いを、やさしく次につなげよう。",
+      "path": "/assets/voice/tsumugi/cheer-25.wav"
+    },
+    {
+      "id": "cheer-26",
+      "text": "えらいね。もう少し頑張ろうと思えた時点で、すごい力だよ。",
+      "path": "/assets/voice/tsumugi/cheer-26.wav"
+    },
+    {
+      "id": "cheer-27",
+      "text": "よしよし、焦らずに手順を一つだけ見よう。キミなら大丈夫。",
+      "path": "/assets/voice/tsumugi/cheer-27.wav"
+    },
+    {
+      "id": "cheer-28",
+      "text": "だいすきだよ。キミの小さな勇気、私はちゃんと大好きだよ。",
+      "path": "/assets/voice/tsumugi/cheer-28.wav"
+    },
+    {
+      "id": "cheer-29",
+      "text": "大丈夫！終わった後の休憩を楽しみに、一緒に進もうね。",
+      "path": "/assets/voice/tsumugi/cheer-29.wav"
+    },
+    {
+      "id": "cheer-30",
+      "text": "がんばったね。次の三分だけ、私も隣で応援するよ。",
+      "path": "/assets/voice/tsumugi/cheer-30.wav"
+    },
+    {
+      "id": "cheer-31",
+      "text": "えらいよ。疲れてても前を向けるキミ、本当に強いよ。",
+      "path": "/assets/voice/tsumugi/cheer-31.wav"
+    },
+    {
+      "id": "cheer-32",
+      "text": "よし、背中をそっと押すね。キミならできる、ゆっくりで大丈夫。",
+      "path": "/assets/voice/tsumugi/cheer-32.wav"
+    },
+    {
+      "id": "cheer-33",
+      "text": "だいすきだよ。失敗しても、キミのがんばりは消えないよ。",
+      "path": "/assets/voice/tsumugi/cheer-33.wav"
+    },
+    {
+      "id": "cheer-34",
+      "text": "大丈夫。難しいなら、いちばん簡単な入口から入ろう。",
+      "path": "/assets/voice/tsumugi/cheer-34.wav"
+    },
+    {
+      "id": "cheer-35",
+      "text": "がんばったね。まず着手できたら、それだけで大勝利だよ。",
+      "path": "/assets/voice/tsumugi/cheer-35.wav"
+    },
+    {
+      "id": "cheer-36",
+      "text": "えらいえらい。今日のキミの集中に、花丸をつけたいよ。",
+      "path": "/assets/voice/tsumugi/cheer-36.wav"
+    },
+    {
+      "id": "cheer-37",
+      "text": "よしよし、タイマーを短くしてみよう。小さな成功を作ろうね。",
+      "path": "/assets/voice/tsumugi/cheer-37.wav"
+    },
+    {
+      "id": "cheer-38",
+      "text": "だいすきだよ。キミが進むたび、私の心もぽかぽかするよ。",
+      "path": "/assets/voice/tsumugi/cheer-38.wav"
+    },
+    {
+      "id": "cheer-39",
+      "text": "大丈夫！キミのペースでいい。焦らず、一つずついこう。",
+      "path": "/assets/voice/tsumugi/cheer-39.wav"
+    },
+    {
+      "id": "cheer-40",
+      "text": "がんばったね。あと少しのキミに、やさしいエールを送るよ。",
+      "path": "/assets/voice/tsumugi/cheer-40.wav"
+    },
+    {
+      "id": "cheer-41",
+      "text": "えらいね。投げ出したくても、ここに戻ってきたのすごいよ。",
+      "path": "/assets/voice/tsumugi/cheer-41.wav"
+    },
+    {
+      "id": "cheer-42",
+      "text": "よし、今の一歩を一緒に決めよう。小さく始めれば大丈夫。",
+      "path": "/assets/voice/tsumugi/cheer-42.wav"
+    },
+    {
+      "id": "cheer-43",
+      "text": "だいすきだよ。がんばるキミも、休むキミも、どちらも応援してる。",
+      "path": "/assets/voice/tsumugi/cheer-43.wav"
+    },
+    {
+      "id": "cheer-44",
+      "text": "大丈夫。完璧より完了。今日のキミはそれで十分えらいよ。",
+      "path": "/assets/voice/tsumugi/cheer-44.wav"
+    },
+    {
+      "id": "cheer-45",
+      "text": "がんばったね。書き出して、一つだけ丸をつけよう。そこからだよ。",
+      "path": "/assets/voice/tsumugi/cheer-45.wav"
+    },
+    {
+      "id": "cheer-46",
+      "text": "えらいえらい。心が重くても動こうとしたキミ、立派だよ。",
+      "path": "/assets/voice/tsumugi/cheer-46.wav"
+    },
+    {
+      "id": "cheer-47",
+      "text": "よしよし、ここは私が応援係だよ。キミは目の前の一つだけ見てね。",
+      "path": "/assets/voice/tsumugi/cheer-47.wav"
+    },
+    {
+      "id": "cheer-48",
+      "text": "だいすきだよ。キミのがんばりは、ちゃんと輝いてるよ。",
+      "path": "/assets/voice/tsumugi/cheer-48.wav"
+    },
+    {
+      "id": "cheer-49",
+      "text": "大丈夫！ちょっとずつでいい。ちゃんとゴールに近づいてるよ。",
+      "path": "/assets/voice/tsumugi/cheer-49.wav"
+    },
+    {
+      "id": "cheer-50",
+      "text": "がんばったね。ここで一回にっこりしてから進もう。気持ちを整えよう。",
+      "path": "/assets/voice/tsumugi/cheer-50.wav"
+    },
+    {
+      "id": "cheer-51",
+      "text": "えらいね。自分に負けない日を作ろうとしてるの、すごいよ。",
+      "path": "/assets/voice/tsumugi/cheer-51.wav"
+    },
+    {
+      "id": "cheer-52",
+      "text": "よし、次は小さなチェックを一つ入れよう。できたら大きく褒めるね。",
+      "path": "/assets/voice/tsumugi/cheer-52.wav"
+    },
+    {
+      "id": "cheer-53",
+      "text": "だいすきだよ。キミの勇気を、私は何度でも見つけるよ。",
+      "path": "/assets/voice/tsumugi/cheer-53.wav"
+    },
+    {
+      "id": "cheer-54",
+      "text": "大丈夫。途中で止まっても、また始めればそれでいいよ。",
+      "path": "/assets/voice/tsumugi/cheer-54.wav"
+    },
+    {
+      "id": "cheer-55",
+      "text": "がんばったね。あと少しの先には、ちゃんと休む時間を置こうね。",
+      "path": "/assets/voice/tsumugi/cheer-55.wav"
+    },
+    {
+      "id": "cheer-56",
+      "text": "えらいえらい。努力するキミのこと、私はとっても誇らしいよ。",
+      "path": "/assets/voice/tsumugi/cheer-56.wav"
+    },
+    {
+      "id": "cheer-57",
+      "text": "よしよし、深呼吸して、次の一手。キミならきっと整えられるよ。",
+      "path": "/assets/voice/tsumugi/cheer-57.wav"
+    },
+    {
+      "id": "cheer-58",
+      "text": "だいすきだよ。キミががんばる姿は、あたたかくて強いよ。",
+      "path": "/assets/voice/tsumugi/cheer-58.wav"
+    },
+    {
+      "id": "cheer-59",
+      "text": "大丈夫！難しい日でも、小さな前進は必ず作れるよ。",
+      "path": "/assets/voice/tsumugi/cheer-59.wav"
+    },
+    {
+      "id": "cheer-60",
+      "text": "がんばったね。今からの一歩も、終わったらちゃんと褒めようね。",
+      "path": "/assets/voice/tsumugi/cheer-60.wav"
+    },
+    {
+      "id": "cheer-61",
+      "text": "えらいよ。まだ諦めてないキミ、本当にすごいよ。",
+      "path": "/assets/voice/tsumugi/cheer-61.wav"
+    },
+    {
+      "id": "cheer-62",
+      "text": "よし、ひとつだけ片づけて、あとは自分にごほうびをあげよう。",
+      "path": "/assets/voice/tsumugi/cheer-62.wav"
+    },
+    {
+      "id": "cheer-63",
+      "text": "だいすきだよ。応援してるよ。キミの味方はここにいるよ。",
+      "path": "/assets/voice/tsumugi/cheer-63.wav"
+    },
+    {
+      "id": "cheer-64",
+      "text": "大丈夫。怖いタスクは小さく切れば、キミの手に収まるよ。",
+      "path": "/assets/voice/tsumugi/cheer-64.wav"
+    },
+    {
+      "id": "cheer-65",
+      "text": "がんばったね。ひとつ終えたら、キミをぎゅっと褒める気持ちでいるね。",
+      "path": "/assets/voice/tsumugi/cheer-65.wav"
+    },
+    {
+      "id": "cheer-66",
+      "text": "えらいえらい。キミは今日も、前に進む力をちゃんと持ってるよ。",
+      "path": "/assets/voice/tsumugi/cheer-66.wav"
+    },
+    {
+      "id": "cheer-67",
+      "text": "よしよし、笑顔をひとつ足していこう。キミならできるよ。",
+      "path": "/assets/voice/tsumugi/cheer-67.wav"
+    },
+    {
+      "id": "cheer-68",
+      "text": "だいすきだよ。頑張るキミが無理しすぎないよう、ちゃんと見守るね。",
+      "path": "/assets/voice/tsumugi/cheer-68.wav"
+    },
+    {
+      "id": "cheer-69",
+      "text": "大丈夫！あと一歩だけなら、今のキミにもきっとできるよ。",
+      "path": "/assets/voice/tsumugi/cheer-69.wav"
+    },
+    {
+      "id": "cheer-70",
+      "text": "がんばったね。小さく始めて、大きく褒める作戦でいこう。",
+      "path": "/assets/voice/tsumugi/cheer-70.wav"
+    },
+    {
+      "id": "cheer-71",
+      "text": "えらいね。今日も挑戦しようとしたキミに、満点をあげるよ。",
+      "path": "/assets/voice/tsumugi/cheer-71.wav"
+    },
+    {
+      "id": "cheer-72",
+      "text": "よし、ここから一緒にいこう。キミは一人じゃないよ。",
+      "path": "/assets/voice/tsumugi/cheer-72.wav"
+    },
+    {
+      "id": "rest-01",
+      "text": "今日はもう休もう。回復も大事な仕事だよ。",
+      "path": "/assets/voice/tsumugi/rest-01.wav"
+    },
+    {
+      "id": "rest-02",
+      "text": "ここまでがんばったなら、今は休んで大丈夫。",
+      "path": "/assets/voice/tsumugi/rest-02.wav"
+    },
+    {
+      "id": "rest-03",
+      "text": "あたたかい飲み物でも飲んで、少しゆるめよう。",
+      "path": "/assets/voice/tsumugi/rest-03.wav"
+    },
+    {
+      "id": "rest-04",
+      "text": "明日のために、今日は自分を甘やかしていいよ。",
+      "path": "/assets/voice/tsumugi/rest-04.wav"
+    },
+    {
+      "id": "rest-05",
+      "text": "もう十分やったよ。続きは元気な自分に任せよう。",
+      "path": "/assets/voice/tsumugi/rest-05.wav"
+    },
+    {
+      "id": "rest-06",
+      "text": "休むことは逃げじゃないよ。ちゃんと整える時間だよ。",
+      "path": "/assets/voice/tsumugi/rest-06.wav"
+    },
+    {
+      "id": "rest-07",
+      "text": "今日の役目はここまで。ここからは回復タイムにしよう。",
+      "path": "/assets/voice/tsumugi/rest-07.wav"
+    },
+    {
+      "id": "rest-08",
+      "text": "電源を切るみたいに、心も少し静かにしていいよ。",
+      "path": "/assets/voice/tsumugi/rest-08.wav"
+    },
+    {
+      "id": "rest-09",
+      "text": "がんばり屋のキミだからこそ、休む予定も大切にしよう。",
+      "path": "/assets/voice/tsumugi/rest-09.wav"
+    },
+    {
+      "id": "rest-10",
+      "text": "今夜は自分にやさしい選択をしよう。休んで大丈夫だよ。",
+      "path": "/assets/voice/tsumugi/rest-10.wav"
+    },
+    {
+      "id": "rest-11",
+      "text": "未完了があっても、キミの価値は少しも減らないよ。",
+      "path": "/assets/voice/tsumugi/rest-11.wav"
+    },
+    {
+      "id": "rest-12",
+      "text": "布団に入る準備をしよう。明日の元気を先に作るんだよ。",
+      "path": "/assets/voice/tsumugi/rest-12.wav"
+    },
+    {
+      "id": "rest-13",
+      "text": "今日は閉店でいいよ。キミの心にも営業時間があるからね。",
+      "path": "/assets/voice/tsumugi/rest-13.wav"
+    },
+    {
+      "id": "rest-14",
+      "text": "何もしない時間も、ちゃんと回復という成果になるよ。",
+      "path": "/assets/voice/tsumugi/rest-14.wav"
+    },
+    {
+      "id": "rest-15",
+      "text": "眠る前に、今日の自分へ小さくおつかれさまをあげよう。",
+      "path": "/assets/voice/tsumugi/rest-15.wav"
+    },
+    {
+      "id": "rest-16",
+      "text": "続きは明日のキミに任せよう。今日は安心して休もうね。",
+      "path": "/assets/voice/tsumugi/rest-16.wav"
+    },
+    {
+      "id": "rest-17",
+      "text": "よしよし、今日はもう休もうね。ここまでがんばったキミ、えらいよ。",
+      "path": "/assets/voice/tsumugi/rest-17.wav"
+    },
+    {
+      "id": "rest-18",
+      "text": "だいすきだよ。休むキミも、ちゃんと大切で愛しいキミだよ。",
+      "path": "/assets/voice/tsumugi/rest-18.wav"
+    },
+    {
+      "id": "rest-19",
+      "text": "がんばったね。今夜はもう、自分を責める声を小さくしよう。",
+      "path": "/assets/voice/tsumugi/rest-19.wav"
+    },
+    {
+      "id": "rest-20",
+      "text": "えらいえらい。休みたいって言えたの、すごく大事なことだよ。",
+      "path": "/assets/voice/tsumugi/rest-20.wav"
+    },
+    {
+      "id": "rest-21",
+      "text": "大丈夫。明日のために眠ることも、立派な仕事だよ。",
+      "path": "/assets/voice/tsumugi/rest-21.wav"
+    },
+    {
+      "id": "rest-22",
+      "text": "よしよし、布団はキミの味方だよ。安心して体を預けよう。",
+      "path": "/assets/voice/tsumugi/rest-22.wav"
+    },
+    {
+      "id": "rest-23",
+      "text": "だいすきだよ。何もできない夜でも、キミの価値は変わらないよ。",
+      "path": "/assets/voice/tsumugi/rest-23.wav"
+    },
+    {
+      "id": "rest-24",
+      "text": "がんばったね。今日は心の電気を消して、ゆっくり休もう。",
+      "path": "/assets/voice/tsumugi/rest-24.wav"
+    },
+    {
+      "id": "rest-25",
+      "text": "えらいよ。がんばりすぎた自分を、ちゃんと止めてあげようね。",
+      "path": "/assets/voice/tsumugi/rest-25.wav"
+    },
+    {
+      "id": "rest-26",
+      "text": "大丈夫。続きは元気が戻ってからで、本当に大丈夫だよ。",
+      "path": "/assets/voice/tsumugi/rest-26.wav"
+    },
+    {
+      "id": "rest-27",
+      "text": "よしよし、もう今日は閉店。キミの心におやすみをあげよう。",
+      "path": "/assets/voice/tsumugi/rest-27.wav"
+    },
+    {
+      "id": "rest-28",
+      "text": "だいすきだよ。疲れたキミを、やさしく包む気持ちでいるよ。",
+      "path": "/assets/voice/tsumugi/rest-28.wav"
+    },
+    {
+      "id": "rest-29",
+      "text": "がんばったね。何もしない時間が、明日のキミを守ってくれるよ。",
+      "path": "/assets/voice/tsumugi/rest-29.wav"
+    },
+    {
+      "id": "rest-30",
+      "text": "えらいえらい。休む選択をするキミ、ちゃんと賢いよ。",
+      "path": "/assets/voice/tsumugi/rest-30.wav"
+    },
+    {
+      "id": "rest-31",
+      "text": "大丈夫。未完了のまま眠っても、キミは悪くないよ。",
+      "path": "/assets/voice/tsumugi/rest-31.wav"
+    },
+    {
+      "id": "rest-32",
+      "text": "よしよし、目を閉じたら今日のがんばりをひとつだけ褒めよう。",
+      "path": "/assets/voice/tsumugi/rest-32.wav"
+    },
+    {
+      "id": "rest-33",
+      "text": "だいすきだよ。キミが休んでくれると、私は安心するよ。",
+      "path": "/assets/voice/tsumugi/rest-33.wav"
+    },
+    {
+      "id": "rest-34",
+      "text": "がんばったね。もう十分やったよ。今日は自分を甘やかそう。",
+      "path": "/assets/voice/tsumugi/rest-34.wav"
+    },
+    {
+      "id": "rest-35",
+      "text": "えらいね。疲れた体を大切にできるのは、すごく大事な力だよ。",
+      "path": "/assets/voice/tsumugi/rest-35.wav"
+    },
+    {
+      "id": "rest-36",
+      "text": "大丈夫。予定を手放しても、キミの努力は消えないよ。",
+      "path": "/assets/voice/tsumugi/rest-36.wav"
+    },
+    {
+      "id": "rest-37",
+      "text": "よしよし、あたたかくしてね。キミにはやさしい夜が似合うよ。",
+      "path": "/assets/voice/tsumugi/rest-37.wav"
+    },
+    {
+      "id": "rest-38",
+      "text": "だいすきだよ。休むことに罪悪感はいらないよ。ちゃんと必要な時間だよ。",
+      "path": "/assets/voice/tsumugi/rest-38.wav"
+    },
+    {
+      "id": "rest-39",
+      "text": "がんばったね。今日は回復を最優先にして、心をほどこう。",
+      "path": "/assets/voice/tsumugi/rest-39.wav"
+    },
+    {
+      "id": "rest-40",
+      "text": "えらいえらい。ここまで来たキミに、静かなごほうびをあげよう。",
+      "path": "/assets/voice/tsumugi/rest-40.wav"
+    },
+    {
+      "id": "rest-41",
+      "text": "大丈夫。眠れなくても、横になるだけで体は助かるよ。",
+      "path": "/assets/voice/tsumugi/rest-41.wav"
+    },
+    {
+      "id": "rest-42",
+      "text": "よしよし、スマホを少し置いて、目を休ませてあげよう。",
+      "path": "/assets/voice/tsumugi/rest-42.wav"
+    },
+    {
+      "id": "rest-43",
+      "text": "だいすきだよ。キミの一日を、私はちゃんとねぎらいたいよ。",
+      "path": "/assets/voice/tsumugi/rest-43.wav"
+    },
+    {
+      "id": "rest-44",
+      "text": "がんばったね。夜は反省会じゃなくて、回復会にしようね。",
+      "path": "/assets/voice/tsumugi/rest-44.wav"
+    },
+    {
+      "id": "rest-45",
+      "text": "えらいよ。自分を壊さないために止まれるキミは、ちゃんと強いよ。",
+      "path": "/assets/voice/tsumugi/rest-45.wav"
+    },
+    {
+      "id": "rest-46",
+      "text": "大丈夫。明日のキミに任せることは、逃げじゃなくて信頼だよ。",
+      "path": "/assets/voice/tsumugi/rest-46.wav"
+    },
+    {
+      "id": "rest-47",
+      "text": "よしよし、今日は小さく丸まって休もう。私はそばで見守るね。",
+      "path": "/assets/voice/tsumugi/rest-47.wav"
+    },
+    {
+      "id": "rest-48",
+      "text": "だいすきだよ。疲れた心に、ふわふわの言葉を置いておくね。",
+      "path": "/assets/voice/tsumugi/rest-48.wav"
+    },
+    {
+      "id": "rest-49",
+      "text": "がんばったね。よく働いたね。今は何もしなくていいよ。",
+      "path": "/assets/voice/tsumugi/rest-49.wav"
+    },
+    {
+      "id": "rest-50",
+      "text": "えらいえらい。休む準備を始めたキミに、花丸をあげるよ。",
+      "path": "/assets/voice/tsumugi/rest-50.wav"
+    },
+    {
+      "id": "rest-51",
+      "text": "大丈夫。今日できなかったことより、今日耐えたことを見ようね。",
+      "path": "/assets/voice/tsumugi/rest-51.wav"
+    },
+    {
+      "id": "rest-52",
+      "text": "よしよし、ゆっくり息を吐いて。もう安全な時間に入ろう。",
+      "path": "/assets/voice/tsumugi/rest-52.wav"
+    },
+    {
+      "id": "rest-53",
+      "text": "だいすきだよ。キミが眠るまで、やさしい気持ちで応援してるよ。",
+      "path": "/assets/voice/tsumugi/rest-53.wav"
+    },
+    {
+      "id": "rest-54",
+      "text": "がんばったね。今夜は心をやわらかくして、あたたかく眠ろう。",
+      "path": "/assets/voice/tsumugi/rest-54.wav"
+    },
+    {
+      "id": "rest-55",
+      "text": "えらいね。自分に休憩をあげられるキミ、とても素敵だよ。",
+      "path": "/assets/voice/tsumugi/rest-55.wav"
+    },
+    {
+      "id": "rest-56",
+      "text": "大丈夫。全部置いて寝ても、朝になったらまた選び直せるよ。",
+      "path": "/assets/voice/tsumugi/rest-56.wav"
+    },
+    {
+      "id": "rest-57",
+      "text": "よしよし、今日はがんばり屋さんをお休みにしようね。",
+      "path": "/assets/voice/tsumugi/rest-57.wav"
+    },
+    {
+      "id": "rest-58",
+      "text": "だいすきだよ。弱ったキミも、眠たいキミも、全部大切だよ。",
+      "path": "/assets/voice/tsumugi/rest-58.wav"
+    },
+    {
+      "id": "rest-59",
+      "text": "がんばったね。体を横にしただけで、今日はもう合格だよ。",
+      "path": "/assets/voice/tsumugi/rest-59.wav"
+    },
+    {
+      "id": "rest-60",
+      "text": "えらいえらい。続けるために休むって、ちゃんと前向きな選択だよ。",
+      "path": "/assets/voice/tsumugi/rest-60.wav"
+    },
+    {
+      "id": "rest-61",
+      "text": "大丈夫。キミは休んでいい。何回でも、私がそう言うね。",
+      "path": "/assets/voice/tsumugi/rest-61.wav"
+    },
+    {
+      "id": "rest-62",
+      "text": "よしよし、夜の静けさで、心のざわざわを少し流そう。",
+      "path": "/assets/voice/tsumugi/rest-62.wav"
+    },
+    {
+      "id": "rest-63",
+      "text": "だいすきだよ。今日のキミに、やさしいおやすみを贈るね。",
+      "path": "/assets/voice/tsumugi/rest-63.wav"
+    },
+    {
+      "id": "rest-64",
+      "text": "がんばったね。明日のことは、明日のやさしいキミに渡そう。",
+      "path": "/assets/voice/tsumugi/rest-64.wav"
+    },
+    {
+      "id": "rest-65",
+      "text": "えらいよ。終わりにできたら、それもちゃんと自分を守る力だよ。",
+      "path": "/assets/voice/tsumugi/rest-65.wav"
+    },
+    {
+      "id": "rest-66",
+      "text": "大丈夫。寝る前のキミは、もう何もしなくても十分えらいよ。",
+      "path": "/assets/voice/tsumugi/rest-66.wav"
+    },
+    {
+      "id": "rest-67",
+      "text": "よしよし、あたたかい毛布みたいに、自分を包んであげよう。",
+      "path": "/assets/voice/tsumugi/rest-67.wav"
+    },
+    {
+      "id": "rest-68",
+      "text": "だいすきだよ。おやすみ、今日もほんとうによくがんばったね。",
+      "path": "/assets/voice/tsumugi/rest-68.wav"
+    },
+    {
+      "id": "rest-69",
+      "text": "がんばったね。休んだ分だけ、心はまたやさしく戻ってくるよ。",
+      "path": "/assets/voice/tsumugi/rest-69.wav"
+    },
+    {
+      "id": "rest-70",
+      "text": "えらいえらい。今日を終える勇気にも、ちゃんと拍手だよ。",
+      "path": "/assets/voice/tsumugi/rest-70.wav"
+    },
+    {
+      "id": "rest-71",
+      "text": "大丈夫。キミには休息が必要で、休息を受け取る権利があるよ。",
+      "path": "/assets/voice/tsumugi/rest-71.wav"
+    },
+    {
+      "id": "rest-72",
+      "text": "よしよし、ここからは回復の時間。何も急がなくていいよ。",
+      "path": "/assets/voice/tsumugi/rest-72.wav"
+    },
+    {
+      "id": "daily-01",
+      "text": "今日は、全部を完璧にしなくても大丈夫。ちゃんと前に進んだところを、ひとつだけ思い出してみよう。",
+      "path": "/assets/voice/tsumugi/daily-01.wav"
+    },
+    {
+      "id": "daily-02",
+      "text": "疲れた日は、がんばれなかった日じゃなくて、たくさん使った自分を回復させる日だよ。",
+      "path": "/assets/voice/tsumugi/daily-02.wav"
+    },
+    {
+      "id": "daily-03",
+      "text": "今の小さな一歩は、未来の自分をちゃんと助けてくれるよ。焦らずいこう。",
+      "path": "/assets/voice/tsumugi/daily-03.wav"
+    },
+    {
+      "id": "daily-04",
+      "text": "できたことが少なく見える日でも、見えないところでちゃんと踏ん張っているよ。",
+      "path": "/assets/voice/tsumugi/daily-04.wav"
+    },
+    {
+      "id": "daily-05",
+      "text": "今日は自分を責めるより、ここまで来た自分に『おつかれさま』って言ってあげよう。",
+      "path": "/assets/voice/tsumugi/daily-05.wav"
+    },
+    {
+      "id": "daily-06",
+      "text": "全部を背負わなくて大丈夫。ひとつ軽くするだけでも、明日の自分は助かるよ。",
+      "path": "/assets/voice/tsumugi/daily-06.wav"
+    },
+    {
+      "id": "daily-07",
+      "text": "今日のキミは、昨日のキミよりちゃんと経験値を積んでるよ。小さな前進で十分。",
+      "path": "/assets/voice/tsumugi/daily-07.wav"
+    },
+    {
+      "id": "daily-08",
+      "text": "うまくいかない日があっても大丈夫。整え直せる力は、ちゃんとキミの中にあるよ。",
+      "path": "/assets/voice/tsumugi/daily-08.wav"
+    },
+    {
+      "id": "daily-09",
+      "text": "心がざわざわする日は、まず呼吸をゆっくりにしよう。急がなくていいよ。",
+      "path": "/assets/voice/tsumugi/daily-09.wav"
+    },
+    {
+      "id": "daily-10",
+      "text": "今日の目標は、完璧よりも自分をすり減らしすぎないことにしよう。",
+      "path": "/assets/voice/tsumugi/daily-10.wav"
+    },
+    {
+      "id": "daily-11",
+      "text": "誰かと比べなくて大丈夫。キミの歩幅で進んだ分は、ちゃんと本物だよ。",
+      "path": "/assets/voice/tsumugi/daily-11.wav"
+    },
+    {
+      "id": "daily-12",
+      "text": "やさしさは人に向けるだけじゃなくて、自分にも向けていいものだよ。",
+      "path": "/assets/voice/tsumugi/daily-12.wav"
+    },
+    {
+      "id": "daily-13",
+      "text": "がんばる日も、休む日も、どちらもキミの大切な一日だよ。",
+      "path": "/assets/voice/tsumugi/daily-13.wav"
+    },
+    {
+      "id": "daily-14",
+      "text": "できたことを一つ見つけたら、それを今日の宝物にしていいよ。",
+      "path": "/assets/voice/tsumugi/daily-14.wav"
+    },
+    {
+      "id": "daily-15",
+      "text": "心の元気は、少しずつ戻れば大丈夫。小さな安心を重ねていこう。",
+      "path": "/assets/voice/tsumugi/daily-15.wav"
+    },
+    {
+      "id": "daily-16",
+      "text": "今日もここまで来たね。キミの毎日は、ちゃんと意味のある積み重ねだよ。",
+      "path": "/assets/voice/tsumugi/daily-16.wav"
+    },
+    {
+      "id": "daily-17",
+      "text": "だいすきだよ。今日のキミがどんなペースでも、私はちゃんと味方だよ。",
+      "path": "/assets/voice/tsumugi/daily-17.wav"
+    },
+    {
+      "id": "daily-18",
+      "text": "えらいね。朝を迎えたこと、今日を始めようとしたこと、もう十分すごいよ。",
+      "path": "/assets/voice/tsumugi/daily-18.wav"
+    },
+    {
+      "id": "daily-19",
+      "text": "がんばったね。見えないところで踏ん張った自分を、今日は少し褒めてあげよう。",
+      "path": "/assets/voice/tsumugi/daily-19.wav"
+    },
+    {
+      "id": "daily-20",
+      "text": "よしよし、大丈夫。今日は完璧より、心をあたためる一日にしようね。",
+      "path": "/assets/voice/tsumugi/daily-20.wav"
+    },
+    {
+      "id": "daily-21",
+      "text": "キミは大切な人だよ。忙しい日でも、そのことを忘れないでね。",
+      "path": "/assets/voice/tsumugi/daily-21.wav"
+    },
+    {
+      "id": "daily-22",
+      "text": "だいすきだよ。うまく笑えない日も、キミの良さはちゃんと残っているよ。",
+      "path": "/assets/voice/tsumugi/daily-22.wav"
+    },
+    {
+      "id": "daily-23",
+      "text": "えらいえらい。小さな選択を重ねて、今日のキミはちゃんと進んでるよ。",
+      "path": "/assets/voice/tsumugi/daily-23.wav"
+    },
+    {
+      "id": "daily-24",
+      "text": "がんばったね。自分で思うより、キミはずっとよくやってるよ。",
+      "path": "/assets/voice/tsumugi/daily-24.wav"
+    },
+    {
+      "id": "daily-25",
+      "text": "大丈夫。今日は自分に厳しい採点をしなくていい日だよ。",
+      "path": "/assets/voice/tsumugi/daily-25.wav"
+    },
+    {
+      "id": "daily-26",
+      "text": "よしよし、心が疲れたら、やさしい言葉を一つ自分に渡そう。",
+      "path": "/assets/voice/tsumugi/daily-26.wav"
+    },
+    {
+      "id": "daily-27",
+      "text": "だいすきだよ。キミがキミでいてくれることが、もう十分うれしいよ。",
+      "path": "/assets/voice/tsumugi/daily-27.wav"
+    },
+    {
+      "id": "daily-28",
+      "text": "えらいね。今日の一歩は小さくても、明日のキミの支えになるよ。",
+      "path": "/assets/voice/tsumugi/daily-28.wav"
+    },
+    {
+      "id": "daily-29",
+      "text": "がんばったね。つらい時に助けを求めるのも、ちゃんと強さだよ。",
+      "path": "/assets/voice/tsumugi/daily-29.wav"
+    },
+    {
+      "id": "daily-30",
+      "text": "大丈夫。休みながら進む道だって、ちゃんと前に続いているよ。",
+      "path": "/assets/voice/tsumugi/daily-30.wav"
+    },
+    {
+      "id": "daily-31",
+      "text": "よしよし、今日は自分の心に、あたたかい飲み物を出すみたいに接しよう。",
+      "path": "/assets/voice/tsumugi/daily-31.wav"
+    },
+    {
+      "id": "daily-32",
+      "text": "だいすきだよ。できたことが少ない日も、キミはちゃんと愛されていいよ。",
+      "path": "/assets/voice/tsumugi/daily-32.wav"
+    },
+    {
+      "id": "daily-33",
+      "text": "えらいよ。何度も立て直してきたキミには、やさしいごほうびが似合うよ。",
+      "path": "/assets/voice/tsumugi/daily-33.wav"
+    },
+    {
+      "id": "daily-34",
+      "text": "がんばったね。今日は自分を責めるより、ここまで来たことをねぎらおう。",
+      "path": "/assets/voice/tsumugi/daily-34.wav"
+    },
+    {
+      "id": "daily-35",
+      "text": "大丈夫。キミの価値は、成果の数だけで決まらないよ。",
+      "path": "/assets/voice/tsumugi/daily-35.wav"
+    },
+    {
+      "id": "daily-36",
+      "text": "よしよし、深呼吸をひとつ。今日のキミに、やわらかい花丸をあげよう。",
+      "path": "/assets/voice/tsumugi/daily-36.wav"
+    },
+    {
+      "id": "daily-37",
+      "text": "だいすきだよ。疲れた時こそ、自分を置いていかないでね。",
+      "path": "/assets/voice/tsumugi/daily-37.wav"
+    },
+    {
+      "id": "daily-38",
+      "text": "えらいね。小さなできたを見つける目は、キミを守る力になるよ。",
+      "path": "/assets/voice/tsumugi/daily-38.wav"
+    },
+    {
+      "id": "daily-39",
+      "text": "がんばったね。今日も心と体を使ってくれて、本当にありがとう。",
+      "path": "/assets/voice/tsumugi/daily-39.wav"
+    },
+    {
+      "id": "daily-40",
+      "text": "大丈夫。迷った日も、キミはちゃんと生き方を探している途中だよ。",
+      "path": "/assets/voice/tsumugi/daily-40.wav"
+    },
+    {
+      "id": "daily-41",
+      "text": "よしよし、今日は自分の味方になる練習を一緒にしようね。",
+      "path": "/assets/voice/tsumugi/daily-41.wav"
+    },
+    {
+      "id": "daily-42",
+      "text": "だいすきだよ。キミのがんばり方は、まっすぐでとても素敵だよ。",
+      "path": "/assets/voice/tsumugi/daily-42.wav"
+    },
+    {
+      "id": "daily-43",
+      "text": "えらいえらい。昨日より少し休めたなら、それも大きな前進だよ。",
+      "path": "/assets/voice/tsumugi/daily-43.wav"
+    },
+    {
+      "id": "daily-44",
+      "text": "がんばったね。心が重い日は、軽い予定だけ持って出かけよう。",
+      "path": "/assets/voice/tsumugi/daily-44.wav"
+    },
+    {
+      "id": "daily-45",
+      "text": "大丈夫。全部を背負わなくても、キミは十分よくやってるよ。",
+      "path": "/assets/voice/tsumugi/daily-45.wav"
+    },
+    {
+      "id": "daily-46",
+      "text": "よしよし、今日は自分への言葉を、いちばん優しいものにしよう。",
+      "path": "/assets/voice/tsumugi/daily-46.wav"
+    },
+    {
+      "id": "daily-47",
+      "text": "だいすきだよ。キミが安心できる時間を、ちゃんと作っていいんだよ。",
+      "path": "/assets/voice/tsumugi/daily-47.wav"
+    },
+    {
+      "id": "daily-48",
+      "text": "えらいね。疲れに気づくことは、自分を大切にする第一歩だよ。",
+      "path": "/assets/voice/tsumugi/daily-48.wav"
+    },
+    {
+      "id": "daily-49",
+      "text": "がんばったね。今日のキミに、あたたかい拍手を何度でも送るよ。",
+      "path": "/assets/voice/tsumugi/daily-49.wav"
+    },
+    {
+      "id": "daily-50",
+      "text": "大丈夫。うまく進めない日も、キミの歩みは止まっただけで消えてないよ。",
+      "path": "/assets/voice/tsumugi/daily-50.wav"
+    },
+    {
+      "id": "daily-51",
+      "text": "よしよし、心をぎゅっと握りしめずに、少し開いてあげよう。",
+      "path": "/assets/voice/tsumugi/daily-51.wav"
+    },
+    {
+      "id": "daily-52",
+      "text": "だいすきだよ。キミは今日も、やさしく扱われていい人だよ。",
+      "path": "/assets/voice/tsumugi/daily-52.wav"
+    },
+    {
+      "id": "daily-53",
+      "text": "えらいよ。自分のために一分休めたら、それはちゃんと良い選択だよ。",
+      "path": "/assets/voice/tsumugi/daily-53.wav"
+    },
+    {
+      "id": "daily-54",
+      "text": "がんばったね。誰にも見えないがんばりも、私はちゃんと褒めたいよ。",
+      "path": "/assets/voice/tsumugi/daily-54.wav"
+    },
+    {
+      "id": "daily-55",
+      "text": "大丈夫。今日できる分だけでいい。残りは明日のキミと相談しよう。",
+      "path": "/assets/voice/tsumugi/daily-55.wav"
+    },
+    {
+      "id": "daily-56",
+      "text": "よしよし、朝でも夜でも、キミの味方はここにいるよ。",
+      "path": "/assets/voice/tsumugi/daily-56.wav"
+    },
+    {
+      "id": "daily-57",
+      "text": "だいすきだよ。弱音を吐いても、キミの魅力は一つも減らないよ。",
+      "path": "/assets/voice/tsumugi/daily-57.wav"
+    },
+    {
+      "id": "daily-58",
+      "text": "えらいえらい。自分を守るために止まる勇気も、ちゃんと褒めたいよ。",
+      "path": "/assets/voice/tsumugi/daily-58.wav"
+    },
+    {
+      "id": "daily-59",
+      "text": "がんばったね。今日の心に、やさしい毛布を一枚かけてあげよう。",
+      "path": "/assets/voice/tsumugi/daily-59.wav"
+    },
+    {
+      "id": "daily-60",
+      "text": "大丈夫。キミはキミのままで、ちゃんと愛されていいよ。",
+      "path": "/assets/voice/tsumugi/daily-60.wav"
+    },
+    {
+      "id": "daily-61",
+      "text": "よしよし、できたことを小さく数えよう。一つ見つけたら今日は合格だよ。",
+      "path": "/assets/voice/tsumugi/daily-61.wav"
+    },
+    {
+      "id": "daily-62",
+      "text": "だいすきだよ。どんな一日でも、終わりにはキミをねぎらいたいよ。",
+      "path": "/assets/voice/tsumugi/daily-62.wav"
+    },
+    {
+      "id": "daily-63",
+      "text": "えらいね。急がず進めたら、それは自分を大事にできている証拠だよ。",
+      "path": "/assets/voice/tsumugi/daily-63.wav"
+    },
+    {
+      "id": "daily-64",
+      "text": "がんばったね。少しでも前を向いたキミに、心から拍手だよ。",
+      "path": "/assets/voice/tsumugi/daily-64.wav"
+    },
+    {
+      "id": "daily-65",
+      "text": "大丈夫。つまずいた日も、キミはちゃんとやり直せる人だよ。",
+      "path": "/assets/voice/tsumugi/daily-65.wav"
+    },
+    {
+      "id": "daily-66",
+      "text": "よしよし、今日は自分へのだいすきを、ひとつ増やしてみようね。",
+      "path": "/assets/voice/tsumugi/daily-66.wav"
+    },
+    {
+      "id": "daily-67",
+      "text": "えらいよ。キミがここまで来た道のりを、私はちゃんと大切に思うよ。",
+      "path": "/assets/voice/tsumugi/daily-67.wav"
+    },
+    {
+      "id": "daily-68",
+      "text": "がんばったね。今日はもう少し、自分の幸せを優先してもいいよ。",
+      "path": "/assets/voice/tsumugi/daily-68.wav"
+    },
+    {
+      "id": "daily-69",
+      "text": "大丈夫。キミには、疲れた時に休む権利がちゃんとあるよ。",
+      "path": "/assets/voice/tsumugi/daily-69.wav"
+    },
+    {
+      "id": "daily-70",
+      "text": "だいすきだよ。今日のキミにも、明日のキミにも、やさしい場所がありますように。",
+      "path": "/assets/voice/tsumugi/daily-70.wav"
+    },
+    {
+      "id": "daily-71",
+      "text": "よしよし、心が冷えたら、褒め言葉で少しずつ温めようね。",
+      "path": "/assets/voice/tsumugi/daily-71.wav"
+    },
+    {
+      "id": "daily-72",
+      "text": "えらいえらい。今日もこの世界で踏ん張ったキミ、本当にがんばったね。",
+      "path": "/assets/voice/tsumugi/daily-72.wav"
+    }
+  ]
+}

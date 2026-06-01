@@ -36,4 +36,15 @@ Cloudflare Pages が自動でビルド・デプロイします。
 - `assets/` … アプリ本体・キャラ画像・BGM(mp3)・VOICEVOX音声(wav×360)・各種アイコン
 - `sw.js` … オフライン用 Service Worker
 - `manifest.webmanifest` … PWA設定
-- `pack
+- `package.json` / `scripts/cloudflare-build-static.mjs` … Cloudflare Pages 用ビルド
+
+## ローカルで確認したい場合
+このフォルダで簡易サーバーを起動して `http://127.0.0.1:8000/` を開いてください。
+（`file://` で直接開くと BGM・音声・SW が動きません）
+
+```
+python -m http.server 8000
+```
+
+## 音声クレジット
+同梱音声は VOICEVOX：春日部つむぎ を想定しています。再配布時は各利用規約に従ってください。

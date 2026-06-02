@@ -5,24 +5,36 @@ import { fileURLToPath } from "node:url";
 const root = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const dist = join(root, "dist");
 
-// --- ギャラリー一覧を自動生成 ---
-// assets/gallery/ に入っている画像を走査して gallery.json を作り直す。
-// これにより「画像をフォルダに入れて push するだけ」で反映される。
-const galleryDir = join(root, "assets", "gallery");
-const allowedExt = new Set([".jpg", ".jpeg", ".png", ".webp", ".gif"]);
-if (existsSync(galleryDir)) {
-  const images = readdirSync(galleryDir)
+// --- ギャラリー一覧を自動生成（画像 + 音声）---
+// 対象フォルダを走査して一覧JSONを作り直す。
+// これにより「画像・音声をフォルダに入れて push するだけ」で反映される。
+const buildList = (relDir, jsonName, exts, exclude) => {
+  const dir = join(root, ...relDir);
+  if (!existsSync(dir)) return;
+  const files = readdirSync(dir)
     .filter((name) => {
       const lower = name.toLowerCase();
-      if (lower === "gallery.json") return false;
-      if (lower.endsWith("_thumb.jpg")) return false;
+      if (lower.endsWith(".json")) return false;
+      if (exclude && exclude(lower)) return false;
       const dot = lower.lastIndexOf(".");
-      return dot >= 0 && allowedExt.has(lower.slice(dot));
+      return dot >= 0 && exts.has(lower.slice(dot));
     })
     .sort((a, b) => a.localeCompare(b, "ja", { numeric: true }));
-  writeFileSync(join(galleryDir, "gallery.json"), JSON.stringify(images), "utf8");
-  console.log(`gallery.json generated: ${images.length} image(s)`);
-}
+  writeFileSync(join(dir, jsonName), JSON.stringify(files), "utf8");
+  console.log(`${jsonName} generated: ${files.length} file(s)`);
+};
+
+buildList(
+  ["assets", "gallery"],
+  "gallery.json",
+  new Set([".jpg", ".jpeg", ".png", ".webp", ".gif"]),
+  (lower) => lower.endsWith("_thumb.jpg")
+);
+buildList(
+  ["assets", "voice", "gallery"],
+  "voice-gallery.json",
+  new Set([".wav", ".mp3", ".m4a", ".ogg"])
+);
 
 const requiredPaths = ["index.html", "manifest.webmanifest", "sw.js", "assets"];
 const copyPaths = ["index.html", "manifest.webmanifest", "sw.js", "README.md", "assets"];

@@ -4,6 +4,9 @@
   "version": "0.1.0",
   "type": "module",
   "scripts": {
-    "build": "node scripts/cloudflare-build-static.mjs"
+    "build": "node scripts/optimize-gallery.mjs && node scripts/cloudflare-build-static.mjs"
+  },
+  "optionalDependencies": {
+    "sharp": "^0.34.0"
   }
 }

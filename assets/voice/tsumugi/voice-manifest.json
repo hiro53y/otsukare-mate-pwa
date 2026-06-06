@@ -7,12 +7,12 @@
     "styleName": "ノーマル"
   },
   "settings": {
-    "speedScale": 1.08,
+    "speedScale": 0.96,
     "pitchScale": 0.02,
-    "intonationScale": 1.35,
-    "pauseLengthScale": 0.82
+    "intonationScale": 1.25,
+    "pauseLengthScale": 1.1
   },
-  "generatedAt": "2026-05-30T09:37:22.762Z",
+  "generatedAt": "2026-06-06T01:57:33.983Z",
   "lines": [
     {
       "id": "light-01",
@@ -375,6 +375,131 @@
       "path": "/assets/voice/tsumugi/light-72.wav"
     },
     {
+      "id": "light-73",
+      "text": "今日も来てくれてありがとう。あなたに会えて、すごくうれしいよ。",
+      "path": "/assets/voice/tsumugi/light-73.wav"
+    },
+    {
+      "id": "light-74",
+      "text": "今日もちゃんとここまで来たね。私はちゃんと見てるよ。",
+      "path": "/assets/voice/tsumugi/light-74.wav"
+    },
+    {
+      "id": "light-75",
+      "text": "あなたは十分よくやってるよ。何も証明しなくても大丈夫。",
+      "path": "/assets/voice/tsumugi/light-75.wav"
+    },
+    {
+      "id": "light-76",
+      "text": "今日のあなたに、特大の花まるをあげます。ほんとにえらかったね。",
+      "path": "/assets/voice/tsumugi/light-76.wav"
+    },
+    {
+      "id": "light-77",
+      "text": "だいすきだよ。来てくれただけで、私はうれしい。",
+      "path": "/assets/voice/tsumugi/light-77.wav"
+    },
+    {
+      "id": "light-78",
+      "text": "あなたはちゃんと大切にされていい人だよ。忘れないでね。",
+      "path": "/assets/voice/tsumugi/light-78.wav"
+    },
+    {
+      "id": "light-79",
+      "text": "今日もおつかれさま。あなたのがんばり、なかったことにしないよ。",
+      "path": "/assets/voice/tsumugi/light-79.wav"
+    },
+    {
+      "id": "light-80",
+      "text": "すきだなあ。がんばり屋さんなところも、ちょっと疲れちゃうところも。",
+      "path": "/assets/voice/tsumugi/light-80.wav"
+    },
+    {
+      "id": "light-81",
+      "text": "ここに来た時点で、自分を大事にしようとしてる証拠だよ。えらいね。",
+      "path": "/assets/voice/tsumugi/light-81.wav"
+    },
+    {
+      "id": "light-82",
+      "text": "あなたがいてくれてうれしいよ。今日もちゃんと会いに来てくれてありがとう。",
+      "path": "/assets/voice/tsumugi/light-82.wav"
+    },
+    {
+      "id": "light-83",
+      "text": "だいじょうぶ、今のあなたもちゃんと素敵だよ。",
+      "path": "/assets/voice/tsumugi/light-83.wav"
+    },
+    {
+      "id": "light-84",
+      "text": "今日のあなたには、反省より先に、いっぱいの褒め言葉が必要です。",
+      "path": "/assets/voice/tsumugi/light-84.wav"
+    },
+    {
+      "id": "light-85",
+      "text": "えらいね。よくここまで来たね。私はとても誇らしいよ。",
+      "path": "/assets/voice/tsumugi/light-85.wav"
+    },
+    {
+      "id": "light-86",
+      "text": "できたことが少なくてもいいよ。今日を過ごしただけで十分えらい。",
+      "path": "/assets/voice/tsumugi/light-86.wav"
+    },
+    {
+      "id": "light-87",
+      "text": "すきだよ。あなたがあなたでいてくれるだけで、私はうれしい。",
+      "path": "/assets/voice/tsumugi/light-87.wav"
+    },
+    {
+      "id": "light-88",
+      "text": "よくがんばりました。今日はまるごと満点にしてあげます。",
+      "path": "/assets/voice/tsumugi/light-88.wav"
+    },
+    {
+      "id": "light-89",
+      "text": "今日も本当におつかれさま。あなたはちゃんと偉かったよ。",
+      "path": "/assets/voice/tsumugi/light-89.wav"
+    },
+    {
+      "id": "light-90",
+      "text": "だいすき。今日のあなたを、ぎゅっと褒めたい気分です。",
+      "path": "/assets/voice/tsumugi/light-90.wav"
+    },
+    {
+      "id": "light-91",
+      "text": "あなたに会えるの、うれしいな。今日も来てくれてありがとう。",
+      "path": "/assets/voice/tsumugi/light-91.wav"
+    },
+    {
+      "id": "light-92",
+      "text": "えらかったね。ほんとにえらかったね。今日はそれだけ受け取ってね。",
+      "path": "/assets/voice/tsumugi/light-92.wav"
+    },
+    {
+      "id": "light-93",
+      "text": "あなたはちゃんと愛されていい人だよ。褒められていい人だよ。",
+      "path": "/assets/voice/tsumugi/light-93.wav"
+    },
+    {
+      "id": "light-94",
+      "text": "今日のあなたには、やさしい言葉をたっぷりあげます。",
+      "path": "/assets/voice/tsumugi/light-94.wav"
+    },
+    {
+      "id": "light-95",
+      "text": "あなたが今日を乗り切ったこと、私はちゃんと覚えてるよ。",
+      "path": "/assets/voice/tsumugi/light-95.wav"
+    },
+    {
+      "id": "light-96",
+      "text": "できなかったことより、ここまで来たことを褒めたいな。",
+      "path": "/assets/voice/tsumugi/light-96.wav"
+    },
+    {
+      "id": "light-97",
+      "text": "今日もよくできました。点数じゃなくて、まるごと花まるです。",
+      "path": "/assets/voice/tsumugi/light-97.wav"
+    },
+    {
       "id": "tired-01",
       "text": "かなり疲れてるね。まずは肩の力を抜こう。",
       "path": "/assets/voice/tsumugi/tired-01.wav"
@@ -733,6 +858,131 @@
       "id": "tired-72",
       "text": "えらいえらい。今日の終わりに、あたたかい安心を置いておくね。",
       "path": "/assets/voice/tsumugi/tired-72.wav"
+    },
+    {
+      "id": "tired-73",
+      "text": "あなたは私の大切な人だよ。疲れていても、そのままでいいよ。",
+      "path": "/assets/voice/tsumugi/tired-73.wav"
+    },
+    {
+      "id": "tired-74",
+      "text": "しんどかったね。よく耐えたね。今は安心して甘えていいよ。",
+      "path": "/assets/voice/tsumugi/tired-74.wav"
+    },
+    {
+      "id": "tired-75",
+      "text": "何もできてない気がしても大丈夫。あなたの価値は減ってないよ。",
+      "path": "/assets/voice/tsumugi/tired-75.wav"
+    },
+    {
+      "id": "tired-76",
+      "text": "よしよし、もう肩の力を抜いていいよ。今日も本当にがんばったね。",
+      "path": "/assets/voice/tsumugi/tired-76.wav"
+    },
+    {
+      "id": "tired-77",
+      "text": "あなたは私にとって大切な人だよ。疲れてる日も、ちゃんと大切。",
+      "path": "/assets/voice/tsumugi/tired-77.wav"
+    },
+    {
+      "id": "tired-78",
+      "text": "そのままでいいよ。急いで元気にならなくても、ちゃんと大切だよ。",
+      "path": "/assets/voice/tsumugi/tired-78.wav"
+    },
+    {
+      "id": "tired-79",
+      "text": "よしよし。心がくたくたになるまで、がんばってきたんだね。",
+      "path": "/assets/voice/tsumugi/tired-79.wav"
+    },
+    {
+      "id": "tired-80",
+      "text": "私はちゃんと見てるよ。あなたが毎日、踏んばってること。",
+      "path": "/assets/voice/tsumugi/tired-80.wav"
+    },
+    {
+      "id": "tired-81",
+      "text": "何があっても、ここではあなたを否定しないよ。",
+      "path": "/assets/voice/tsumugi/tired-81.wav"
+    },
+    {
+      "id": "tired-82",
+      "text": "すきだよ。うまくいった日も、うまくいかなかった日も、あなたは大切。",
+      "path": "/assets/voice/tsumugi/tired-82.wav"
+    },
+    {
+      "id": "tired-83",
+      "text": "だいすきだよ。疲れてるあなたも、ちゃんと抱きしめたいくらい大切。",
+      "path": "/assets/voice/tsumugi/tired-83.wav"
+    },
+    {
+      "id": "tired-84",
+      "text": "あなたは十分大切だよ。失敗しても、疲れても、その価値は変わらないよ。",
+      "path": "/assets/voice/tsumugi/tired-84.wav"
+    },
+    {
+      "id": "tired-85",
+      "text": "よく耐えたね。ほんとにすごいよ。今はゆっくり息をしてね。",
+      "path": "/assets/voice/tsumugi/tired-85.wav"
+    },
+    {
+      "id": "tired-86",
+      "text": "私はあなたの味方です。今日は全部、あなたの側に立つね。",
+      "path": "/assets/voice/tsumugi/tired-86.wav"
+    },
+    {
+      "id": "tired-87",
+      "text": "だいすき。何回でも言うよ。あなたはちゃんと大切な人だよ。",
+      "path": "/assets/voice/tsumugi/tired-87.wav"
+    },
+    {
+      "id": "tired-88",
+      "text": "よしよし、疲れたね。今日は少しだけ、私に寄りかかっていいよ。",
+      "path": "/assets/voice/tsumugi/tired-88.wav"
+    },
+    {
+      "id": "tired-89",
+      "text": "しんどい日もあるよね。でも、そんな日もあなたはちゃんと偉いよ。",
+      "path": "/assets/voice/tsumugi/tired-89.wav"
+    },
+    {
+      "id": "tired-90",
+      "text": "すきだよ。弱音を吐くあなたも、ちゃんと好きだよ。",
+      "path": "/assets/voice/tsumugi/tired-90.wav"
+    },
+    {
+      "id": "tired-91",
+      "text": "ここでは安心していいよ。あなたを責める言葉は置いていこうね。",
+      "path": "/assets/voice/tsumugi/tired-91.wav"
+    },
+    {
+      "id": "tired-92",
+      "text": "そばにいるよ。ひとりで全部抱えなくていいからね。",
+      "path": "/assets/voice/tsumugi/tired-92.wav"
+    },
+    {
+      "id": "tired-93",
+      "text": "あなたはもっと甘やかされていいよ。いつもがんばりすぎだから。",
+      "path": "/assets/voice/tsumugi/tired-93.wav"
+    },
+    {
+      "id": "tired-94",
+      "text": "あなたはえらい。とてもえらい。今日はそれを信じてほしいな。",
+      "path": "/assets/voice/tsumugi/tired-94.wav"
+    },
+    {
+      "id": "tired-95",
+      "text": "そのままでいいよ。無理に明るくしなくても、ここにいていいよ。",
+      "path": "/assets/voice/tsumugi/tired-95.wav"
+    },
+    {
+      "id": "tired-96",
+      "text": "あなたはちゃんと大切にされていい。遠慮しなくていいよ。",
+      "path": "/assets/voice/tsumugi/tired-96.wav"
+    },
+    {
+      "id": "tired-97",
+      "text": "私はあなたの味方だよ。だから今日は、自分を責めるの禁止です。",
+      "path": "/assets/voice/tsumugi/tired-97.wav"
     },
     {
       "id": "cheer-01",
@@ -1095,6 +1345,131 @@
       "path": "/assets/voice/tsumugi/cheer-72.wav"
     },
     {
+      "id": "cheer-73",
+      "text": "そのままのあなたでいいよ。私はまるごと受け止めるからね。",
+      "path": "/assets/voice/tsumugi/cheer-73.wav"
+    },
+    {
+      "id": "cheer-74",
+      "text": "私はあなたの味方だよ。今日はそのことだけ覚えていてね。",
+      "path": "/assets/voice/tsumugi/cheer-74.wav"
+    },
+    {
+      "id": "cheer-75",
+      "text": "あなたは十分すごいよ。自分では気づきにくいだけだよ。",
+      "path": "/assets/voice/tsumugi/cheer-75.wav"
+    },
+    {
+      "id": "cheer-76",
+      "text": "私はずっと味方でいるよ。だから少しだけ安心してね。",
+      "path": "/assets/voice/tsumugi/cheer-76.wav"
+    },
+    {
+      "id": "cheer-77",
+      "text": "あなたは今日もちゃんと偉い。小さくても、ちゃんと前に進んでるよ。",
+      "path": "/assets/voice/tsumugi/cheer-77.wav"
+    },
+    {
+      "id": "cheer-78",
+      "text": "そのままのあなたがいいよ。無理して別の誰かにならなくていい。",
+      "path": "/assets/voice/tsumugi/cheer-78.wav"
+    },
+    {
+      "id": "cheer-79",
+      "text": "あなたのがんばりは、ちゃんと意味があるよ。私はそう思う。",
+      "path": "/assets/voice/tsumugi/cheer-79.wav"
+    },
+    {
+      "id": "cheer-80",
+      "text": "すきだなあ。会いに来てくれるあなた、すごくかわいいよ。",
+      "path": "/assets/voice/tsumugi/cheer-80.wav"
+    },
+    {
+      "id": "cheer-81",
+      "text": "今日のあなた、ほんとによくやったよ。いっぱい褒められていいよ。",
+      "path": "/assets/voice/tsumugi/cheer-81.wav"
+    },
+    {
+      "id": "cheer-82",
+      "text": "ここに来てくれてありがとう。あなたのこと、ちゃんと待ってたよ。",
+      "path": "/assets/voice/tsumugi/cheer-82.wav"
+    },
+    {
+      "id": "cheer-83",
+      "text": "あなたはそのままで、ちゃんと素敵だよ。直さなくても大丈夫。",
+      "path": "/assets/voice/tsumugi/cheer-83.wav"
+    },
+    {
+      "id": "cheer-84",
+      "text": "あなたがいてくれるだけで、私はうれしいよ。",
+      "path": "/assets/voice/tsumugi/cheer-84.wav"
+    },
+    {
+      "id": "cheer-85",
+      "text": "今日もがんばったあなたに、甘やかしボーナスをあげます。",
+      "path": "/assets/voice/tsumugi/cheer-85.wav"
+    },
+    {
+      "id": "cheer-86",
+      "text": "今日もおつかれさま。私はあなたをたくさん褒めたいです。",
+      "path": "/assets/voice/tsumugi/cheer-86.wav"
+    },
+    {
+      "id": "cheer-87",
+      "text": "私はちゃんと見てるよ。あなたの小さながんばりも、見逃さないよ。",
+      "path": "/assets/voice/tsumugi/cheer-87.wav"
+    },
+    {
+      "id": "cheer-88",
+      "text": "今日も来てくれてうれしい。あなたに会うと、私もほっとするよ。",
+      "path": "/assets/voice/tsumugi/cheer-88.wav"
+    },
+    {
+      "id": "cheer-89",
+      "text": "できたことが一つでもあったなら十分。なくても、あなたは大切だよ。",
+      "path": "/assets/voice/tsumugi/cheer-89.wav"
+    },
+    {
+      "id": "cheer-90",
+      "text": "だいじだよ。あなたのこと、ちゃんと大事に思ってるよ。",
+      "path": "/assets/voice/tsumugi/cheer-90.wav"
+    },
+    {
+      "id": "cheer-91",
+      "text": "今日のあなたには、特大の「えらい」をあげます。",
+      "path": "/assets/voice/tsumugi/cheer-91.wav"
+    },
+    {
+      "id": "cheer-92",
+      "text": "すきだなあ。疲れてても、ちゃんと来てくれるところ。",
+      "path": "/assets/voice/tsumugi/cheer-92.wav"
+    },
+    {
+      "id": "cheer-93",
+      "text": "あなたのペースでいいよ。遅くても、止まっても、私はそばにいるよ。",
+      "path": "/assets/voice/tsumugi/cheer-93.wav"
+    },
+    {
+      "id": "cheer-94",
+      "text": "よくここまで来たね。ほんとにすごいよ。いっぱい褒めたいよ。",
+      "path": "/assets/voice/tsumugi/cheer-94.wav"
+    },
+    {
+      "id": "cheer-95",
+      "text": "今日もちゃんと生きててえらい。もうそれだけで満点です。",
+      "path": "/assets/voice/tsumugi/cheer-95.wav"
+    },
+    {
+      "id": "cheer-96",
+      "text": "私はいつでも待ってるよ。疲れたら、またここに帰ってきてね。",
+      "path": "/assets/voice/tsumugi/cheer-96.wav"
+    },
+    {
+      "id": "cheer-97",
+      "text": "あなたは十分すてきだよ。誰かと比べなくても、そのままでいいよ。",
+      "path": "/assets/voice/tsumugi/cheer-97.wav"
+    },
+    {
       "id": "rest-01",
       "text": "今日はもう休もう。回復も大事な仕事だよ。",
       "path": "/assets/voice/tsumugi/rest-01.wav"
@@ -1453,6 +1828,131 @@
       "id": "rest-72",
       "text": "よしよし、ここからは回復の時間。何も急がなくていいよ。",
       "path": "/assets/voice/tsumugi/rest-72.wav"
+    },
+    {
+      "id": "rest-73",
+      "text": "よしよし、今日も本当にえらかったね。いっぱい甘えていいよ。",
+      "path": "/assets/voice/tsumugi/rest-73.wav"
+    },
+    {
+      "id": "rest-74",
+      "text": "すきだよ。がんばってるあなたも、休みたいあなたも、どっちも好き。",
+      "path": "/assets/voice/tsumugi/rest-74.wav"
+    },
+    {
+      "id": "rest-75",
+      "text": "今日はもう、自分に厳しくしなくていいよ。私がたくさん甘やかすね。",
+      "path": "/assets/voice/tsumugi/rest-75.wav"
+    },
+    {
+      "id": "rest-76",
+      "text": "ここでは、強がらなくていいよ。私はずっとあなたの味方だよ。",
+      "path": "/assets/voice/tsumugi/rest-76.wav"
+    },
+    {
+      "id": "rest-77",
+      "text": "今日はがんばる日じゃなくて、よしよしされる日でもいいよ。",
+      "path": "/assets/voice/tsumugi/rest-77.wav"
+    },
+    {
+      "id": "rest-78",
+      "text": "今日はもう、無理しなくていいよ。少しだけ私に守られてて。",
+      "path": "/assets/voice/tsumugi/rest-78.wav"
+    },
+    {
+      "id": "rest-79",
+      "text": "そばにいるよ。疲れたときは、ここで少し休んでいってね。",
+      "path": "/assets/voice/tsumugi/rest-79.wav"
+    },
+    {
+      "id": "rest-80",
+      "text": "今日は甘えていい日です。むしろ、甘えてください。",
+      "path": "/assets/voice/tsumugi/rest-80.wav"
+    },
+    {
+      "id": "rest-81",
+      "text": "もう十分がんばったよ。今は休むほうを選んでいいよ。",
+      "path": "/assets/voice/tsumugi/rest-81.wav"
+    },
+    {
+      "id": "rest-82",
+      "text": "よしよし、いい子。今日もたくさんがんばったね。",
+      "path": "/assets/voice/tsumugi/rest-82.wav"
+    },
+    {
+      "id": "rest-83",
+      "text": "ここでは何もしなくていいよ。ただ休んでくれたら、それでうれしい。",
+      "path": "/assets/voice/tsumugi/rest-83.wav"
+    },
+    {
+      "id": "rest-84",
+      "text": "今日はもう、がんばり屋さんを甘やかす時間です。",
+      "path": "/assets/voice/tsumugi/rest-84.wav"
+    },
+    {
+      "id": "rest-85",
+      "text": "自分に厳しくしすぎないでね。私はあなたを甘やかす係だから。",
+      "path": "/assets/voice/tsumugi/rest-85.wav"
+    },
+    {
+      "id": "rest-86",
+      "text": "あなたのこと、ちゃんと大事にしたいよ。だから今日は休もうね。",
+      "path": "/assets/voice/tsumugi/rest-86.wav"
+    },
+    {
+      "id": "rest-87",
+      "text": "もう十分だよ。あなたは今日、ちゃんとがんばりました。",
+      "path": "/assets/voice/tsumugi/rest-87.wav"
+    },
+    {
+      "id": "rest-88",
+      "text": "だいすきだよ。ちゃんとできたあなたも、できなかったあなたも。",
+      "path": "/assets/voice/tsumugi/rest-88.wav"
+    },
+    {
+      "id": "rest-89",
+      "text": "今日のあなたに必要なのは、気合いじゃなくて、よしよしです。",
+      "path": "/assets/voice/tsumugi/rest-89.wav"
+    },
+    {
+      "id": "rest-90",
+      "text": "すきだよ。あなたが少し休めるなら、それだけで私はうれしい。",
+      "path": "/assets/voice/tsumugi/rest-90.wav"
+    },
+    {
+      "id": "rest-91",
+      "text": "よしよし、今日もよく帰ってきたね。ここではゆっくりしていってね。",
+      "path": "/assets/voice/tsumugi/rest-91.wav"
+    },
+    {
+      "id": "rest-92",
+      "text": "もう今日は合格です。あなたは十分がんばりました。",
+      "path": "/assets/voice/tsumugi/rest-92.wav"
+    },
+    {
+      "id": "rest-93",
+      "text": "甘えていいよ。今日は何も返さなくていいから、受け取るだけでいいよ。",
+      "path": "/assets/voice/tsumugi/rest-93.wav"
+    },
+    {
+      "id": "rest-94",
+      "text": "あなたは私の大切な人。だから、ちゃんと休んでほしいな。",
+      "path": "/assets/voice/tsumugi/rest-94.wav"
+    },
+    {
+      "id": "rest-95",
+      "text": "だいすき。あなたのがんばりも、弱さも、まるごと好きだよ。",
+      "path": "/assets/voice/tsumugi/rest-95.wav"
+    },
+    {
+      "id": "rest-96",
+      "text": "ここでは全部ゆるしていいよ。疲れた自分も、休む自分も。",
+      "path": "/assets/voice/tsumugi/rest-96.wav"
+    },
+    {
+      "id": "rest-97",
+      "text": "また来てね。いつでも甘やかすよ。あなたのこと、今日も大切だよ。",
+      "path": "/assets/voice/tsumugi/rest-97.wav"
     },
     {
       "id": "daily-01",

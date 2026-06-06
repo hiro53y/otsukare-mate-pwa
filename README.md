@@ -1,50 +1,82 @@
-# おつかれさまメイト（UI刷新版）
+# おつかれさまメイト
 
-疲れたあなたに、女の子キャラが寄り添って癒しの言葉をかけてくれるスマホ向けPWAです。
-BGM・VOICEVOX（春日部つむぎ）音声・360件のセリフはこれまで通り同梱しています。
+仕事や作業で疲れた時に、女の子キャラクターが明るく労ってくれるスマホ向けPWAです。
 
-## スマホでの使い方（本番：GitHub → Cloudflare Pages）
-このリポジトリ（`hiro53y/otsukare-mate-pwa`）の `main` に push すると、
-Cloudflare Pages が自動でビルド・デプロイします。
+## 起動方法
+```bash
+npm install
+npm run dev
+```
 
-1. スマホのブラウザで公開URLを開く： https://otsukare-mate-pwa.pages.dev/
-2. ブラウザメニューから「ホーム画面に追加」→ アプリとして起動
-3. 初回タップ後に BGM が小音量で再生。音声ボタンで VOICEVOX 音声の読み上げをON
-   （対応していない端末ではブラウザ読み上げに自動でフォールバック）
+## ビルド方法
+```bash
+npm run build
+```
 
-> HTTPS で配信されるため、BGM・音声・オフライン動作（Service Worker）がすべて有効です。
+生成物は `dist/` に出力されます。
 
-## デプロイ構成（Cloudflare Pages）
-- Production URL: https://otsukare-mate-pwa.pages.dev/
+## 春日部つむぎ音声の生成
+VOICEVOXまたはVOICEVOX Engineを起動し、`http://127.0.0.1:50021` が応答する状態で実行します。
+
+```bash
+npm run generate:voice
+```
+
+生成先は `public/assets/voice/tsumugi/` です。現在は疲れ度メッセージ288件と日替わりメッセージ72件、合計360件のWAVを同梱します。アプリは同梱WAVを優先再生し、音声ファイルが無い場合は端末のWeb Speech APIへフォールバックします。
+
+## BGMの生成と差し替え
+初期BGMは以下で生成できます。
+
+```bash
+npm run generate:bgm
+```
+
+差し替えたい場合は、同名MP3を次の場所に上書きしてください。コード変更は不要です。
+
+- 開発用: `public/assets/bgm/otsukare_bgm.mp3`
+- 配布物: `assets/bgm/otsukare_bgm.mp3`
+
+BGMはスマホブラウザの自動再生制限に合わせ、初回タップ後に小音量でループ再生します。設定モーダルからON/OFFできます。
+
+## プレビュー方法
+```bash
+npm run preview
+```
+
+標準では `http://127.0.0.1:4173/` で `dist/` を配信します。
+
+## Cloudflare Pagesへのデプロイ方法
 - Build command: `npm run build`
 - Build output directory: `dist`
-- ビルドの実体は `scripts/cloudflare-build-static.mjs`。配布物
-  （`index.html` / `manifest.webmanifest` / `sw.js` / `README.md` / `assets/`）を
-  `dist/` にコピーするだけの静的ビルドです。
-- 更新手順：このフォルダの内容を変更 → `git add` → `git commit` → `git push origin main`
-  → Cloudflare が自動デプロイ。
+- Root directory: `otsukare-mate-pwa`
 
-## 機能
-- **きもち選択**（4種）でキャラと言葉が切り替わる（セリフは全360件、同日重複しにくい制御つき）
-- **今日のひとこと**：日替わりメッセージ
-- **音声ON**：VOICEVOX（春日部つむぎ）の同梱音声を優先再生／無い端末はブラウザ読み上げへ自動切替
-- **BGM ON/OFF**：ヘッダーから切替（最初のタップ後に小音量でループ再生）
-- **ふりかえり**・**ごほうびリスト**：記録はこの端末のブラウザ内に保存
+## Android Chromeでホーム画面に追加する方法
+1. Cloudflare PagesなどHTTPSで配信されたURLをAndroid Chromeで開く
+2. Chromeメニューから「ホーム画面に追加」または「アプリをインストール」を選ぶ
+3. ホーム画面から起動し、単独アプリ表示になることを確認する
 
-## ファイル構成
-- `index.html` … エントリ（`assets/main.js` / `main.css` を読み込む）
-- `assets/` … アプリ本体・キャラ画像・BGM(mp3)・VOICEVOX音声(wav×360)・各種アイコン
-- `sw.js` … オフライン用 Service Worker
-- `manifest.webmanifest` … PWA設定
-- `package.json` / `scripts/cloudflare-build-static.mjs` … Cloudflare Pages 用ビルド
+## PWAとして追加できない場合の確認点
+- HTTPSで配信されているか
+- `/manifest.webmanifest` が200で取得できるか
+- `/assets/icon-192.png` と `/assets/icon-512.png` が200で取得できるか
+- `/sw.js` が200で取得でき、service worker登録が成功しているか
+- ブラウザのキャッシュに古いservice workerが残っていないか
 
-## ローカルで確認したい場合
-このフォルダで簡易サーバーを起動して `http://127.0.0.1:8000/` を開いてください。
-（`file://` で直接開くと BGM・音声・SW が動きません）
-
-```
-python -m http.server 8000
-```
+## 音声読み上げが動かない場合の注意点
+- 初期状態は音声OFFです。右上の音声ボタンでONにしてください。
+- スマホブラウザの制限により、起動直後の自動再生は行いません。音声ONまたはボタン操作後に再生します。
+- `public/assets/voice/tsumugi/*.wav` が未生成の場合は、端末のWeb Speech APIへフォールバックします。
+- 端末やブラウザ設定で音声再生が無効化されている場合があります。
 
 ## 音声クレジット
-同梱音声は VOICEVOX：春日部つむぎ を想定しています。再配布時は各利用規約に従ってください。
+このアプリの同梱音声は `VOICEVOX:春日部つむぎ` を想定しています。音声を生成して配布する場合は、VOICEVOXおよび春日部つむぎの利用規約に従ってください。
+
+## 画像素材の配置場所
+基本画像は `public/assets/` に配置しています。実装内では `/assets/ファイル名` で参照します。
+
+追加のキャラクター差分12枚は `public/assets/characters/` に、褒め・癒し用の追加イラスト24枚は `public/assets/characters/praise/` に配置しています。ビルド後の配布物では `assets/characters/` 以下にコピーされます。これらは既存キャラ素材と参考イラストの雰囲気を参照して生成した画像生成素材で、発話中・押下直後・今日のひとこと表示時の切り替えに使います。
+
+## セリフの重複制御
+セリフは `src/data/messages.ts` で管理します。`light / tired / cheer / rest / daily` を各72件、合計360件用意しています。
+
+同じ日付内では、各プールの全件を出し切るまで同じセリフが再表示されないよう、`localStorage` の `otsukare-mate:message-history:<date>` に表示履歴を保存します。

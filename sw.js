@@ -1,6 +1,6 @@
-const CACHE_NAME = "otsukare-mate-v11";
+const CACHE_NAME = "otsukare-mate-v12";
 
-// 起動に必要な最小限だけ precache（無くても致命的でない物は入れない）
+// 起動に必要な最小限だけprecacheする。任意アセットはfetch時にキャッシュする。
 const CORE_ASSETS = [
   "/",
   "/index.html",
@@ -16,7 +16,6 @@ self.addEventListener("install", (event) => {
   event.waitUntil(
     caches
       .open(CACHE_NAME)
-      // 1つ失敗しても install 全体を止めない（allSettled）
       .then((cache) => Promise.allSettled(CORE_ASSETS.map((url) => cache.add(url))))
       .then(() => self.skipWaiting())
   );
@@ -26,12 +25,13 @@ self.addEventListener("activate", (event) => {
   event.waitUntil(
     caches
       .keys()
-      .then((keys) => Promise.all(keys.filter((key) => key !== CACHE_NAME).map((key) => caches.delete(key))))
+      .then((keys) =>
+        Promise.all(keys.filter((key) => key !== CACHE_NAME).map((key) => caches.delete(key)))
+      )
       .then(() => self.clients.claim())
   );
 });
 
-// network-first: 取得できたら最新を返しつつキャッシュ更新、失敗時のみキャッシュ
 const networkFirst = (request, fallbackPath) =>
   fetch(request)
     .then((response) => {
@@ -42,10 +42,11 @@ const networkFirst = (request, fallbackPath) =>
       return response;
     })
     .catch(() =>
-      caches.match(request).then((cached) => cached || (fallbackPath ? caches.match(fallbackPath) : undefined))
+      caches
+        .match(request)
+        .then((cached) => cached || (fallbackPath ? caches.match(fallbackPath) : undefined))
     );
 
-// cache-first: あればキャッシュ、無ければ取得してキャッシュ
 const cacheFirst = (request) =>
   caches.match(request).then(
     (cached) =>
@@ -66,24 +67,20 @@ self.addEventListener("fetch", (event) => {
   const url = new URL(request.url);
   if (url.origin !== self.location.origin) return;
 
-  // HTML（ナビゲーション）: network-first
   if (request.mode === "navigate" || (request.headers.get("accept") || "").includes("text/html")) {
     event.respondWith(networkFirst(request, "/index.html"));
     return;
   }
 
-  // 一覧JSON・マニフェスト類: 必ず network-first（追加した画像/音声を即反映するため）
   if (url.pathname.endsWith(".json") || url.pathname.endsWith(".webmanifest")) {
     event.respondWith(networkFirst(request));
     return;
   }
 
-  // アプリ本体（バンドル）: network-first（更新を確実に取り込む）
   if (url.pathname === "/assets/main.js" || url.pathname === "/assets/main.css") {
     event.respondWith(networkFirst(request));
     return;
   }
 
-  // 画像・音声などの静的アセット: cache-first（高速・オフライン）
   event.respondWith(cacheFirst(request));
 });

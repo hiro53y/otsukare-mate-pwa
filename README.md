@@ -22,7 +22,7 @@ VOICEVOXまたはVOICEVOX Engineを起動し、`http://127.0.0.1:50021` が応�
 npm run generate:voice
 ```
 
-生成先は `public/assets/voice/tsumugi/` です。現在は疲れ度メッセージ288件と日替わりメッセージ72件、合計360件のWAVを同梱します。アプリは同梱WAVを優先再生し、音声ファイルが無い場合は端末のWeb Speech APIへフォールバックします。
+生成先は `public/assets/voice/tsumugi/` です。現在は疲れ度メッセージ388件と日替わりメッセージ72件、合計460件のWAVを同梱します。アプリは同梱WAVを優先再生し、音声ファイルが無い場合は端末のWeb Speech APIへフォールバックします。
 
 ## BGMの生成と差し替え
 初期BGMは以下で生成できます。
@@ -77,6 +77,6 @@ npm run preview
 追加のキャラクター差分12枚は `public/assets/characters/` に、褒め・癒し用の追加イラスト24枚は `public/assets/characters/praise/` に配置しています。ビルド後の配布物では `assets/characters/` 以下にコピーされます。これらは既存キャラ素材と参考イラストの雰囲気を参照して生成した画像生成素材で、発話中・押下直後・今日のひとこと表示時の切り替えに使います。
 
 ## セリフの重複制御
-セリフは `src/data/messages.ts` で管理します。`light / tired / cheer / rest / daily` を各72件、合計360件用意しています。
+セリフは `src/data/messages.ts` で管理します。`light / tired / cheer / rest` を各97件、`daily` を72件、合計460件用意しています。
 
 同じ日付内では、各プールの全件を出し切るまで同じセリフが再表示されないよう、`localStorage` の `otsukare-mate:message-history:<date>` に表示履歴を保存します。

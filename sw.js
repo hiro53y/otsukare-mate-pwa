@@ -1,4 +1,4 @@
-const CACHE_NAME = "otsukare-mate-v16";
+const CACHE_NAME = "otsukare-mate-v17";
 
 // 起動に必要な最小限だけprecacheする。任意アセットはfetch時にキャッシュする。
 const CORE_ASSETS = [

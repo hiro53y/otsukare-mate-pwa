@@ -1,4 +1,4 @@
-const CACHE_NAME = "otsukare-mate-v17";
+const CACHE_NAME = "otsukare-mate-v18";
 
 // 起動に必要な最小限だけprecacheする。任意アセットはfetch時にキャッシュする。
 const CORE_ASSETS = [
@@ -78,6 +78,11 @@ self.addEventListener("fetch", (event) => {
   }
 
   if (url.pathname === "/assets/main.js" || url.pathname === "/assets/main.css") {
+    event.respondWith(networkFirst(request));
+    return;
+  }
+
+  if (url.pathname.startsWith("/assets/bgm/")) {
     event.respondWith(networkFirst(request));
     return;
   }

@@ -16,7 +16,7 @@ npm run build
 生成物は `dist/` に出力されます。
 
 ## 声かけの個人最適化
-疲れ度を選んだ後、「やさしく癒して」「元気づけて」「今できること」から希望する声かけを選びます。表示後の「合ってた」「ちがうかも」はセリフID別に端末内へ保存され、次回以降の抽選へ反映されます。評価件数・適合率の確認と履歴リセットは設定画面から行えます。評価データは外部送信しません。
+疲れ度を選んだ後、「やさしく癒して」「元気づけて」「今できること」から希望する声かけを選びます。表示後の「合ってた」「ちがうかも」はセリフID別に端末内へ保存され、次回以降の抽選へ反映されます。「もうひとこと聴く」は選択中の意図に合う短音声を明示操作時だけ再生し、通常セリフや評価履歴は変更しません。評価件数・適合率の確認と履歴リセットは設定画面から行えます。評価データは外部送信しません。
 
 ## 春日部つむぎ音声の生成
 VOICEVOXまたはVOICEVOX Engineを起動し、`http://127.0.0.1:50021` が応答する状態で実行します。
@@ -25,7 +25,15 @@ VOICEVOXまたはVOICEVOX Engineを起動し、`http://127.0.0.1:50021` が応�
 npm run generate:voice
 ```
 
-生成先は `public/assets/voice/tsumugi/` です。現在は疲れ度メッセージ388件と日替わりメッセージ72件、合計460件のWAVを同梱します。アプリは同梱WAVを優先再生し、音声ファイルが無い場合は端末のWeb Speech APIへフォールバックします。
+生成先は `public/assets/voice/tsumugi-intent-v1/` です。疲れ度メッセージ388件を3意図別プロファイル、HealingScene用の短音声24件を新規生成します。既存の `voice/tsumugi/` とdaily72は変更しません。アプリは新しい同梱WAVを優先再生し、音声ファイルが無い場合は端末のWeb Speech APIへフォールバックします。
+
+VOICEVOX Engineが未起動なら、スクリプトは `%LOCALAPPDATA%\\Programs\\VOICEVOX\\vv-engine\\run.exe` を一時起動し、生成後にそのプロセスだけ終了します。すでに起動中のEngineは停止しません。既存ファイルも再生成する場合は `npm run generate:voice -- --force` を使います。
+
+音声・画像の整合確認は次で実行できます。
+
+```bash
+npm run verify:assets
+```
 
 ## BGMの生成と差し替え
 初期BGMは以下で生成できます。
@@ -83,3 +91,17 @@ npm run preview
 セリフは `src/data/messages.ts` で管理します。`light / tired / cheer / rest` を各97件、`daily` を72件、合計460件用意しています。
 
 同じ日付内では、各プールの全件を出し切るまで同じセリフが再表示されないよう、`localStorage` の `otsukare-mate:message-history:<date>` に表示履歴を保存します。
+
+## HealingScene画像
+
+新規画像は `public/assets/gallery/` に次の12ファイル名で配置済みです。選んだ声かけ種別に応じて声かけ下へ表示され、タップすると同じ画像をギャラリーで拡大します。ビルド時にそのまま配布物へコピーされます。
+
+- `healing-comfort-01.webp` ～ `healing-comfort-04.webp`
+- `healing-encourage-01.webp` ～ `healing-encourage-04.webp`
+- `healing-practical-01.webp` ～ `healing-practical-04.webp`
+
+各画像は960×1280pxの文字なし水彩WebPで、既存キャラクター画像を参照してImageGenで生成しています。
+
+## 安全性とデータ
+
+このアプリは医療診断・治療を行うものではありません。評価履歴は端末内のlocalStorageにだけ保存し、外部へ送信しません。

@@ -44,6 +44,11 @@ for (const name of files) {
   const srcPath = join(galleryDir, name);
   const ext = extname(name).toLowerCase();
   try {
+    // 癒し情景はアプリが固定の .webp パスで参照するため、拡張子を変えない。
+    if (/^healing-(comfort|encourage|practical)-\d{2}\.webp$/i.test(name)) {
+      skipped++;
+      continue;
+    }
     const meta = await sharp(srcPath).metadata();
     const longEdge = Math.max(meta.width || 0, meta.height || 0);
     const isJpeg = ext === ".jpg" || ext === ".jpeg";
